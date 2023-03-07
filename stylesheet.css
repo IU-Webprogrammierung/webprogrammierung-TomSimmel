@@ -1,5 +1,40 @@
-p{
-    font-family: 'Trebuchet MS';
-    font-size: 16px;
-    color:blue;
-}
+ h1 {
+     font-family: 'Inter';
+     font-size: 4em;
+     color: #F3F3F3;
+     font-weight: bold;
+     text-transform: uppercase;
+     text-align: center;
+ }
+
+ h2 {
+     font-family: 'Inter';
+     font-size: 2em;
+     color: #343434;
+     font-weight: medium;
+     text-transform: uppercase;
+     text-align: center;
+ }
+
+ h3 {
+     font-family: 'Inter';
+     font-size: 1.5em;
+     color: black;
+     font-weight: medium;
+     letter-spacing: 0.4em;
+ }
+
+ p {
+     font-family: 'Source Sans 3';
+     font-size: 1em;
+     color: #343434;
+     font-weight: 400
+     ;
+ }
+
+ nav{
+    font-family:'Soruce Sans 3' ;
+    font-size: 1.1em;
+    color: #343434;
+    font-weight: 400;
+ }
