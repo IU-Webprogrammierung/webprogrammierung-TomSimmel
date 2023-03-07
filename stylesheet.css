@@ -54,15 +54,13 @@
  }
 
  body {
-     max-width: 60em;
      height: 100%;
-     margin: 1em auto;
 
  }
 
 
  .hero-image {
-     background-image: linear-gradient (rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url ("Bilder\matthias-schroder-64aCN1BEV-M-unsplash.jpg");
+    background-image:url(Bilder\daniel-sessler-BurTAJlbsRo-unsplash.jpg);
      height: 50%;
      background-position: center;
      background-repeat: no-repeat;
