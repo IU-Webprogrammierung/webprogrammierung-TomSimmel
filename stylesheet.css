@@ -28,13 +28,28 @@
      font-family: 'Source Sans 3';
      font-size: 1em;
      color: #343434;
-     font-weight: 400
-     ;
+     font-weight: 400;
+ }
+
+q{
+    font-family: 'Inter';
+    font-size: 1.5em;
+    color: black;
+    font-weight: medium;
+    letter-spacing: 0.4em;
  }
 
  nav{
-    font-family:'Soruce Sans 3' ;
-    font-size: 1.1em;
+    font-family: 'Source Sans 3';
+    font-size: 1.2em;
+    color: #343434;
+    font-weight: 400
+    ;
+ }
+
+ form{
+    font-family: 'Source Sans 3';
+    font-size: 1em;
     color: #343434;
     font-weight: 400;
  }
