@@ -1,6 +1,12 @@
- h1 {
+body,html {
+    height: 100%;
+    margin: 2em;
+
+}
+
+h1 {
      font-family: 'Inter';
-     font-size: 4em;
+     font-size: 3em;
      color: #F3F3F3;
      font-weight: bold;
      text-transform: uppercase;
@@ -39,11 +45,19 @@
      letter-spacing: 0.4em;
  }
 
- nav {
+
+
+ a {
      font-family: 'Source Sans 3';
      font-size: 1.2em;
      color: #343434;
      font-weight: 400;
+     text-decoration: none;
+     margin-left: 1.25em;
+ }
+
+ a:hover {
+     font-weight: bold;
  }
 
  form {
@@ -53,7 +67,43 @@
      font-weight: 400;
  }
 
- body {
-     height: 100%;
 
+ .navigation-top {
+     display: flex;
+     justify-content: end;
+     align-items: center;
+     margin-top: 2em;
+     margin-bottom: 2em;
+ }
+
+ .navigation-bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+ .active-seite {
+    font-weight: bold;
+ }
+
+ .hero-image {
+     background-image: url(Bilder\eberhard-grossgasteiger-iMnezp9R_dc-unsplash.jpg);
+     background-color: aqua;
+     height: 50%;
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     position: relative;
+     margin-bottom: 5em;
+ }
+
+ .hero-text {
+     text-align: center;
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+     color: white;
  }
