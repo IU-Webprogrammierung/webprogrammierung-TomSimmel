@@ -61,6 +61,7 @@ form {
     align-items: center;
     padding-top: 1em;
     padding-bottom: 1em;
+   
 }
 
 .navigation-bottom {
@@ -99,7 +100,7 @@ form {
 
 }
 
-.active-seite {
+.navigation-top a.active-seite {
     font-weight: bold;
 }
 
@@ -121,7 +122,7 @@ form {
 
 .hero-text {
     text-align: center;
-    max-width: 45%;
+    max-width: 30%;
     position: absolute;
     top: 45%;
     left: 50%;
@@ -151,7 +152,7 @@ form {
 
 .about-picture {
     width: 100%;
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
     border-radius: 100%;
 
@@ -175,7 +176,7 @@ form {
     justify-content: center;
     flex-direction: row;
     column-gap: 1.5em;
-    min-height: 480px;
+    height: 60vh
 }
 
 .touren-boxen {
@@ -187,6 +188,7 @@ form {
     min-height: 480px;
     padding: 24px;
     margin-top: 1.5em;
+    height: 100%;
 
 }
 
@@ -206,7 +208,8 @@ form {
 /* Zitat START */
 .zitat {
     background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(Bilder/guillaume-briard-lSXpV8bDeMA-unsplash.jpg);
-    height: 400px;
+    min-height: 400px;
+    max-height: 813px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -241,7 +244,7 @@ form {
 
 /*Meine Ausrüstung START */
 
-.about-me {
+.ausruestung {
     display: flex;
     width: 100%;
     justify-content: center;
@@ -250,18 +253,13 @@ form {
     margin-bottom: 8em;
     margin-top: 8em;
     min-height: 400px;
+
 }
 
-.about-picture {
+.ausruestung-picture {
     width: 100%;
-    background-size: cover;
+    background-size:contain;
     background-repeat: no-repeat;
-    border-radius: 100%;
-
-}
-
-.about-text {
-
 }
 
 /* Meine Ausrüstung Ende */
