@@ -40,7 +40,7 @@ q {
     font-size: 1.5em;
     color: black;
     font-weight: medium;
-    letter-spacing: 0.4em;
+   
 }
 
 
@@ -185,19 +185,21 @@ form {
 
 .zitat-text {
     text-align: center;
-    max-width: 30%;
+    max-width: 45%;
     position: absolute;
-    top: 45%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
 }
 
-.zitat-text > h2{
+.zitat-text > q{
     color: white
 }
 
 .zitat-text> p {
     color: #F3F3F3;
+    font-size: 0.75em;
+    margin-top: 16px;
 }
 
