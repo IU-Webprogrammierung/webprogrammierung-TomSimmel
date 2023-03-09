@@ -1,4 +1,5 @@
-body,html {
+body,
+html {
     height: 100%;
 }
 
@@ -40,7 +41,7 @@ q {
     font-size: 1.5em;
     color: black;
     font-weight: medium;
-   
+
 }
 
 
@@ -105,7 +106,7 @@ form {
 /* HERO IMAGE */
 
 .hero-image {
-    background-image: url(Bilder/eberhard-grossgasteiger-iMnezp9R_dc-unsplash.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(Bilder/eberhard-grossgasteiger-iMnezp9R_dc-unsplash.jpg);
     height: calc(110vh - 92px);
     background-position: center;
     background-repeat: no-repeat;
@@ -118,7 +119,7 @@ form {
 
 .hero-text {
     text-align: center;
-    max-width:45%;
+    max-width: 45%;
     position: absolute;
     top: 45%;
     left: 50%;
@@ -133,7 +134,7 @@ form {
 
 /* Meine letzten Abenteuer */
 
-.bereich-touren{
+.bereich-touren {
     display: flex;
     width: 100%;
     justify-content: center;
@@ -144,7 +145,7 @@ form {
 
 }
 
-.touren-boxen{
+.touren-boxen {
     display: flex;
     text-align: right;
     justify-content: flex-end;
@@ -158,20 +159,20 @@ form {
 
 }
 
-.touren-boxen > h3{
-    color:white;
+.touren-boxen>h3 {
+    color: white;
     font-size: 1.25em;
     text-align: right
 }
 
-.touren-boxen > p{
-    color:white;
+.touren-boxen>p {
+    color: white;
 }
 
 /* Zitat */
 
 .zitat {
-    background-image: url(Bilder/guillaume-briard-lSXpV8bDeMA-unsplash.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(Bilder/guillaume-briard-lSXpV8bDeMA-unsplash.jpg);
     height: 400px;
     background-position: center;
     background-repeat: no-repeat;
@@ -193,13 +194,12 @@ form {
     color: white;
 }
 
-.zitat-text > q{
+.zitat-text>q {
     color: white
 }
 
-.zitat-text> p {
+.zitat-text>p {
     color: #F3F3F3;
     font-size: 0.75em;
     margin-top: 16px;
 }
-
