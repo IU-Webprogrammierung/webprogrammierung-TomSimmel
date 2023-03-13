@@ -61,6 +61,8 @@ form {
     align-items: center;
     padding-top: 1em;
     padding-bottom: 1em;
+    position:fixed
+    top: 45%;
    
 }
 
@@ -176,7 +178,7 @@ form {
     justify-content: center;
     flex-direction: row;
     column-gap: 1.5em;
-    height: 60vh
+
 }
 
 .touren-boxen {
@@ -263,3 +265,6 @@ form {
 }
 
 /* Meine Ausrüstung Ende */
+
+/*Kontakt formular START */
+
