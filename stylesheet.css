@@ -60,44 +60,36 @@ form {
     font-weight: 400;
 }
 
+button {
+    background-color: #04AA6D;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 200px;
+}
 
+button:hover{
+    background-color: #08c47f; 
+    color: white;
+}
+
+.button2 {
+    background-color: #F3F3F3;
+    color:#343434;
+}
+
+.button2:hover{
+    background-color: #e9e9e9;
+    color: #343434;
+
+}
 
 
 /* Navigation START */
 
-
-/* Navigation ENDE */
-
-
-/* Hero-Image START */
-.hero-image {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(Bilder/eberhard-grossgasteiger-iMnezp9R_dc-unsplash.jpg);
-    height: calc(110vh - 92px);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-    margin-bottom: 5em;
-    width: 100%;
-
-}
-
-.hero-text {
-    text-align: center;
-    max-width: 30%;
-    position: absolute;
-    top: 55%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: white;
-}
-
-.hero-text>p {
-    color: #F3F3F3;
-
-}
-
-/* Hero-Image ENDE */
 ul {
     list-style-type: none;
     margin: 0;
@@ -136,6 +128,40 @@ li a:hover{
     font-weight: bold;
 }
 
+/* Navigation ENDE */
+
+
+/* Hero-Image START */
+.hero-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(Bilder/eberhard-grossgasteiger-iMnezp9R_dc-unsplash.jpg);
+    height: calc(110vh - 92px);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    margin-bottom: 5em;
+    width: 100%;
+
+}
+
+.hero-text {
+    text-align: center;
+    max-width: 30%;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.hero-text>p {
+    color: #F3F3F3;
+
+}
+
+/* Hero-Image ENDE */
+
+
 /* About Me START */
 .about-me {
     width: 100%;
@@ -146,15 +172,19 @@ li a:hover{
 }
 
 .about-picture {
-    width: 35%;
+    width: 30%;
     height: 100%;
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 .about-text {
-    width: 35%;
+    width: 30%;
     padding-left: 3em;
+}
+
+.about-me >button{
+    width: 50%;
 }
 
 /* About Me ENDE */
@@ -350,6 +380,6 @@ input[type=text], select {
   }
 
   input[type=button]:hover {
-    background-color: #08c47f; /* Green */
+    background-color: #08c47f;
     color: white;
   }
