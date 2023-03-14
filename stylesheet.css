@@ -283,17 +283,18 @@ li a:hover{
 }
 
 .ausruestung-picture {
-    width: 35%;
+    width: 20%;
     height: 100%;
     background-size: contain;
     background-repeat: no-repeat;
+    align-content: end;
 }
 
 .ausruestung-text {
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
-    width: 35%;
+    width: 30%;
+    padding-left: 3em;
 }
 
 /* Meine Ausrüstung Ende */
