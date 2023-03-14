@@ -46,6 +46,8 @@
                 über uns und unseren Blog erfahren willst starte hier! Poste deine Fotos und Videos auf Instagram mit
                 dem Hashtag #wttwcommunity, damit wir und die Community
                 deine Beiträge sehen, liken und kommentieren können. </p>
+                <input type="button" value="Nachricht senden">
+                <input type="button" value="Nachricht senden">
         </div>
     </div>
     <!--Hi! Schön dass du da bist-->
@@ -117,29 +119,23 @@
     <div class="Kontakt">
         <div class="Kontaktbild" style="background-image:url(Bilder/bild_von_mir.jpg);"></div>
         <div class="Formular">
-            <form>
-                <p>Anrde*</p>
-                <input type="radio" id="H" name="Anrde" value="">
+            <form autocomplete="on">
+                <label for="gender">Anrede:</label><br>
+                <input type="radio" id="gender" name="Herr" value="">
                 <label for="H"> Herr</label>
-                <input type="radio" id="F" name="Anrde" value="">
+                <input type="radio" id="gender" name="Frau" value="">
                 <label for="F"> Frau </label>
-                <input type="radio" id="D" name="Anrde" value="">
-                <label for="D"> Keine Angabe </label>
-                <br><br>
+                <input type="radio" id="gender" name="Keine Angabe value="">
+                <label for="D"> Keine Angabe </label>  <br><br>
                 <label for="name">Vorname*</label>
-                <input id="name" placeholder="Max" required>
-                <label for="name1">Nachname*</label>
-                <input id="name1" type="name1" placeholder="Mustermann" required>
-                <br><br>
+                <input type="text" id="vname" placeholder="Vorname" required>
+                <label for="nname">Nachname*</label>
+                <input type="text" id="name1" type="name1" placeholder="Nachname" required>
                 <label for="email">E-Mail*</label>
-                <input id="email" type="email" placeholder="m.mustermann@web.de" required>
-                <label for="tel">Telefon</label>
-                <input id="tel" type="tel" placeholder="0176 811 584 65">
-                <br><br>
+                <input id="email" type="email" placeholder="m.mustermann@web.de" required><br><br>
                 <label for="message">Nachricht*</label>
                 <input id="message" type="message" placeholder="Was möchtest du mir sagen?" required>
-                <br><br>
-                <button type="submit" name="action" value="0">Nachricht senden</button>
+                <input type="button" value="Nachricht senden">
             </form>
         </div>
     </div>
