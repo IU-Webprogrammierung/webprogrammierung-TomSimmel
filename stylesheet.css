@@ -212,7 +212,7 @@ li a:hover {
     justify-content: flex-end;
     flex-direction: column;
     background-size: cover;
-    min-height: 480px;
+    min-height: 600px;
     padding: 24px;
     margin-top: 1.5em;
     height: 100%;
@@ -242,12 +242,12 @@ li a:hover {
 
 /* Zitat START */
 .zitat {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(Bilder/guillaume-briard-lSXpV8bDeMA-unsplash.jpg);
-    min-height: 400px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(Bilder/tim-muller-fbKeAVK2gM0-unsplash.jpg);
+    min-height: 600px;
     max-height: 813px;
-    background-position: center;
+    background-position: bottom center;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     position: relative;
     margin-bottom: 8em;
     margin-top: 8em;
@@ -284,25 +284,36 @@ li a:hover {
     height: 500px;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     margin-top: 8em;
     margin-bottom: 8em;
+    flex-wrap: wrap;
 
 }
 
 .ausruestung-picture {
-    width: 20%;
-    height: 100%;
+    width: 40%;
+    height: 400px;
     background-size: contain;
     background-repeat: no-repeat;
-    align-content: end;
+    background-position: center right;
+
 }
 
 .ausruestung-text {
     display: flex;
     flex-direction: column;
-    width: 30%;
+    width: 50%;
     padding-left: 3em;
+}
+
+.ausruestung-text>h2 {
+    align-self: flex-start;
+}
+
+.ausruestung-text>p {
+    align-self: flex-start;
+    width: 60%;
 }
 
 /* Meine Ausrüstung Ende */
@@ -323,7 +334,7 @@ li a:hover {
 }
 
 .Kontaktbild {
-    width: 35%;
+    width: 30%;
     height: 100%;
     background-size: cover;
     background-repeat: no-repeat;
@@ -331,7 +342,7 @@ li a:hover {
 }
 
 .Formular {
-    width: 35%;
+    width: 30%;
     padding-left: 3em;
 }
 
