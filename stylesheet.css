@@ -92,6 +92,14 @@ button:hover {
 
 /* Navigation START */
 
+.navigation {
+    text-align: center;
+}
+
+.navigation ul li{
+    display: inline;
+}
+
 ul {
     list-style-type: none;
     margin: 0 auto;
