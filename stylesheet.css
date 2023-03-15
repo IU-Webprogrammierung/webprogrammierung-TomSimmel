@@ -11,8 +11,8 @@
 section{
     max-width: 1400px;
     margin: 0 auto;
-    padding-top: 5em;
-    padding-bottom: 5em;
+    padding-top: 7em;
+    padding-bottom: 7em;
 }
 
 h1 {
@@ -218,8 +218,7 @@ button:hover {
 
 /* Meine letzten Abenteuer START */
 .Touren-gesamt {
-    margin-top: 8em;
-    margin-bottom: 8em;
+
 }
 
 .bereich-touren {
@@ -276,7 +275,7 @@ button:hover {
     background-size: cover;
     position: relative;
     margin-bottom: 10em;
-    margin-top: 8em;
+    margin-top: 10em;
     width: 100%;
 
 }
@@ -311,7 +310,6 @@ button:hover {
     flex-direction: row;
     justify-content: center;
     align-items: flex-start;
-    margin-bottom: 5em;
     margin-top: 2.5em;
     flex-wrap: wrap;
 
@@ -359,7 +357,6 @@ button:hover {
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    margin-bottom: 16em;
     margin-top: 3em;
     flex-wrap: wrap;
 
@@ -459,6 +456,7 @@ input[type=button]:hover {
     text-align: center;
     padding-top: 3em;
     padding-bottom: 1em;
+    margin-top: 7em;
 }
 
 .navigation_bottom {
