@@ -8,6 +8,13 @@
     background: transparent;
 }
 
+section{
+    max-width: 1400px;
+    margin: 0 auto;
+    padding-top: 5em;
+    padding-bottom: 5em;
+}
+
 h1 {
     font-family: 'Inter';
     font-size: 3em;
@@ -154,6 +161,7 @@ button:hover {
 }
 
 .hero-text {
+    max-width: 800px;
     text-align: center;
     position: absolute;
     top: 50%;
@@ -175,22 +183,24 @@ button:hover {
     width: 100%;
     height: 500px;
     display: flex;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
 }
 
 .about-picture {
-    width: 30%;
+    width: 40%;
     height: 100%;
     background-size: cover;
     background-repeat: no-repeat;
+    padding-right: 5px;
 }
 
 .about-text {
-    width: 30%;
-    padding-left: 3em;
+    width: 60%;
     text-align: left;
+    padding-left: 5px;
 }
 
 .about-me>button {
@@ -296,19 +306,19 @@ button:hover {
 /*Meine Ausrüstung START */
 
 .ausruestung {
-    margin-top: 3em;
-    width: 90%;
-    height: 500px;
+    width: 100%;
     display: flex;
+    flex-direction: row;
     justify-content: center;
     align-items: flex-start;
     margin-bottom: 5em;
+    margin-top: 2.5em;
     flex-wrap: wrap;
 
 }
 
 .ausruestung-picture {
-    width: 40%;
+    width: 35%;
     height: 400px;
     background-size: contain;
     background-repeat: no-repeat;
@@ -319,15 +329,15 @@ button:hover {
 .ausruestung-text {
     display: flex;
     flex-direction: column;
-    max-width: 55%;
-    padding-left: 3em;
+    width: 65%;
+
 
 }
 
 .ausruestung-text>h3 {
 
     align-self: flex-start;
-    margin:1em 0;
+    margin: 1em 0;
     padding: 0;
     text-align: left;
 }
@@ -344,19 +354,19 @@ button:hover {
 
 
 .Kontakt {
-    margin-top: 3em;
     width: 100%;
     height: 500px;
     display: flex;
     justify-content: center;
     align-items: flex-start;
     margin-bottom: 16em;
+    margin-top: 3em;
     flex-wrap: wrap;
 
 }
 
 .Kontaktbild {
-    width: 30%;
+    width: 40%;
     height: 100%;
     background-size: cover;
     background-repeat: no-repeat;
@@ -364,7 +374,7 @@ button:hover {
 }
 
 .Formular {
-    width: 30%;
+    width: 40%;
     padding-left: 3em;
 }
 
@@ -447,11 +457,12 @@ input[type=button]:hover {
     width: 100%;
     background-color: #F3F3F3;
     text-align: center;
-    padding: 4em;
+    padding-top: 3em;
+    padding-bottom: 1em;
 }
 
 .navigation_bottom {
-    padding-top: 1em;
+    padding-top: 2em;
     padding-bottom: 1em;
 }
 
@@ -465,8 +476,7 @@ input[type=button]:hover {
     font-size: 1em;
     color: #343434;
     font-weight: 400;
-    padding: 1.5em 1.5em;
-    margin-bottom: 2em;
+    padding: 1em 1em;
     text-decoration: none;
     display: inline-block;
     
@@ -488,7 +498,7 @@ input[type=button]:hover {
 .socialmedia {
     text-align: center;
     padding-top: 1em;
-    padding-bottom: 2em;
+    padding-bottom: 1em;
 }
 
 .fa {
@@ -510,17 +520,17 @@ input[type=button]:hover {
 }
 
 .fa-twitter {
-    background:#343434;
+    background: #343434;
     color: white;
 }
 
 .fa-youtube {
-    background:#343434;
+    background: #343434;
     color: white;
 }
 
 .fa-instagram {
-    background:#343434;
+    background: #343434;
     color: white;
 }
 
