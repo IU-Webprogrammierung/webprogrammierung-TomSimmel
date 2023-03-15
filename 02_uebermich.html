@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -16,31 +17,40 @@
 <body>
 
     <!--Navigation-->
-    <div class="navigation-top">
-    
-        <a href="index.html">Startseite</a>
-        <a class="active-seite" tabindex="0" aria-current="page">Über Mich</a>
-        <a href="03_touren.html">Meine Touren</a>
-        <a href="04_kontakt.html">Kontakt</a>
-    
-    </div>
-     <!--Navigation-->
+    <ul>
+        <li><a href="index.html">Startseite</a></li>
+        <li><a class="active-seite" tabindex="0" aria-current="page">Über Mich</a></li>
+        <li><a href="03_touren.html">Meine Touren</a></li>
+        <li><a href="04_kontakt.html">Kontakt</a></li>
+    </ul>
+    <!--Navigation-->
 
     <!--Hero Image-->
-    <img src="Bilder\sheshan-r-4AU8t0aQHVI-unsplash.jpg" alt="Aussicht auf Berg mit Schnee" height="500">
-    <h1>Hi! Mein Name ist Tom</h1>
-    <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo, eaque dolores. Tempore illum reprehenderit
-        repellat, accusantium assumenda expedita asperiores quaerat impedit commodi, pariatur rem, voluptatem
-        laboriosam! Incidunt corporis officiis cumque? </p>
+    <div class="hero-image">
+        <div class="hero-text">
+            <h1>willkommen bei meinem bergzeit-block</h1>
+            <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo, eaque dolores. Tempore illum
+                reprehenderit
+                repellat, accusantium assumenda expedita asperiores quaerat impedit commodi, pariatur rem, voluptatem
+                laboriosam! Incidunt corporis officiis cumque? </p>
+        </div>
+    </div>
     <!--Hero Image-->
 
     <!--Ueber Mich-->
-    <br>
-    <h2> Über Mich</h2>
-    <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo, eaque dolores. Tempore illum reprehenderit
-        repellat, accusantium assumenda expedita asperiores quaerat impedit commodi, pariatur rem, voluptatem
-        laboriosam! Incidunt corporis officiis cumque? </p>
-    <img src="Bilder\christopher-burns-Lh2qwkppkf8-unsplash.jpg" alt="Bild von Tom beim Klettern" height="500">
+    <div class="about-me">
+        <div class="about-picture" style="background-image:url(Bilder/bild_von_mir.jpg);"></div>
+        <div class="about-text">
+            <h2> Hi! Schön, dass du da bist.</h2>
+            <p> Wir sind Caro & Martin und nehmen dich auf unserem Reiseblog WE TRAVEL THE WORLD mit zu den schönsten
+                Reisezielen der Erde. Bei uns findest du Tipps, Tricks und jede Menge Reiseinspiration! Wenn du mehr
+                über uns und unseren Blog erfahren willst starte hier! Poste deine Fotos und Videos auf Instagram mit
+                dem Hashtag #wttwcommunity, damit wir und die Community
+                deine Beiträge sehen, liken und kommentieren können. </p>
+            <button>Button</button>
+            <button class="button button2">Button</button>
+        </div>
+    </div>
 
     <h3>4,22 KM</h3>
     <p>Distanz</p>
@@ -61,78 +71,92 @@
     <p>Touren</p>
     <!--Ueber Mich-->
 
-    <br>
-
     <!--Zitat-->
-    <q> Es schien mir sinnlos, von den Wundern der Ferne immer nur zu träumen, ich wollte sie erleben.“</q>
-    <p> Herbert Tichy österreichischer Bergsteiger, Journalist und Besteiger des Cho Oyu ohne künstlichen Sauerstoff
-        (1912 - 1987)</p>
-    <img src="Bilder\todd-diemer-fpNBYsymggk-unsplash.jpg" alt="Berge mit Weitsicht" height="500">
+    <div class="zitat">
+        <div class="zitat-text">
+            <q>Es schien mir sinnlos, von den Wundern der Ferne immer nur zu träumen, ich wollte sie erleben.</q>
+            <p>Herbert Tichy österreichischer Bergsteiger, Journalist und Besteiger des Cho Oyu ohne künstlichen
+                Sauerstoff
+                (1912 - 1987)</p>
+        </div>
+    </div>
     <!--Zitat-->
 
-    <br>
 
     <!--Ausruestung-->
     <h2> Meine Ausrüstung</h2>
-    <p>GRIVEL</p>
-    <h3>AIR TECH EVOLUTION T - EISPICKEL</h3>
-    <img src="Bilder\GrivelAirTech.jpg" alt="BProduktbild GrivelAirTech" height="500">
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti perspiciatis, odio error adipisci illum
-        labore, nihil consectetur nobis ex velit a ad quas quasi repellat odit, vero maxime sunt! Praesentium!</p>
+    <div class="ausruestung">
+        <div class="ausruestung-picture" style="background-image:url(Bilder/GrivelAirTech.jpg);"></div>
+        <div class="ausruestung-text">
+            <p>GRIVEL</p>
+            <h2>AIR TECH EVOLUTION T - EISPICKEL</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti perspiciatis, odio error adipisci illum
+                labore, nihil consectetur nobis ex velit a ad quas quasi repellat odit, vero maxime sunt! Praesentium!
+            </p>
+        </div>
+    </div>
     <!--Ausruestung-->
 
     <br>
 
     <!--Letzte Touren-->
-    <h2> Letzte Touren</h2>
-    <img src="Bilder\tamas-tuzes-katai-jMncnJKd928-unsplash.jpg" alt="AbenteuerBerg1" height="500">
-    <h3> ELLMAUERHALT </h3>
-    <p> Wilder Kaiser Tirol (AUT) <br>
-        2344m </p>
-
-    <img src="Bilder\guillaume-briard-JvlPfVY0lck-unsplash.jpg" alt="AbenteuerBerg2" height="500">
-    <h3> ELLMAUERHALT </h3>
-    <p> Wilder Kaiser Tirol (AUT) <br>
-        2344m </p>
-
-    <img src="Bilder\guillaume-briard-zuDk8NunJ3I-unsplash.jpg" alt="AbenteuerBerg3" height="500">
-    <h3> ELLMAUERHALT </h3>
-    <p> Wilder Kaiser Tirol (AUT) <br>
-        2344m </p>
-
-    <img src="Bilder\eberhard-grossgasteiger-8H-ViMB-aLw-unsplash.jpg" alt="AbenteuerBerg4" height="500">
-    <h3> ELLMAUERHALT </h3>
-    <p> Wilder Kaiser Tirol (AUT) <br>
-        2344m </p>
-    <br>
+    <div class="Touren-gesamt">
+        <h2> Meine letzten Abenteuer</h2>
+        <div class="bereich-touren">
+            <div class="touren-boxen"
+                style="background-image: linear-gradient(to top, rgba(0, 0, 0, 0.685) 0%, rgba(255, 255, 255, 0) 40%), url(Bilder/tamas-tuzes-katai-jMncnJKd928-unsplash.jpg);">
+                <h3> ELLMAUERHALT </h3>
+                <p> Wilder Kaiser Tirol (AUT)
+                    <br>2344m
+                </p>
+            </div>
+            <div class="touren-boxen"
+                style="background-image: linear-gradient(to top, rgba(0, 0, 0, 0.685) 0%, rgba(255, 255, 255, 0) 40%), url(Bilder/guillaume-briard-zuDk8NunJ3I-unsplash.jpg);">
+                <h3> ELLMAUERHALT </h3>
+                <p> Wilder Kaiser Tirol (AUT)
+                    <br>2344m
+                </p>
+            </div>
+            <div class="touren-boxen"
+                style="background-image: linear-gradient(to top, rgba(0, 0, 0, 0.685) 0%, rgba(255, 255, 255, 0) 40%), url(Bilder/guillaume-briard-JvlPfVY0lck-unsplash.jpg);">
+                <h3> ELLMAUERHALT </h3>
+                <p> Wilder Kaiser Tirol (AUT)
+                    <br>2344m
+                </p>
+            </div>
+            <div class="touren-boxen"
+                style="background-image: linear-gradient(to top, rgba(0, 0, 0, 0.685) 0%, rgba(255, 255, 255, 0) 40%), url(Bilder/eberhard-grossgasteiger-8H-ViMB-aLw-unsplash.jpg);">
+                <h3> ELLMAUERHALT </h3>
+                <p> Wilder Kaiser Tirol (AUT)
+                    <br>2344m
+                </p>
+            </div>
+        </div>
+    </div>
     <!--Letzte Touren-->
 
     <!--Footer-->
-   
-        <h2>NAVIGATION</h2>
-        <div class="navigation-bottom">
-    
-            <a href="index.html">Startseite</a>
-            <a class="active-seite" tabindex="0" aria-current="page">Über Mich</a>
-            <a href="03_touren.html">Meine Touren</a>
-            <a href="04_kontakt.html">Kontakt</a>
-        
+    <div class="footer">
+        <div class="navigation_bottom">
+            <h2>NAVIGATION</h2>
+            <div class="ul_footer">
+                <li><a href="index.html">Startseite</a></li>
+                <li><a class="active-seite" tabindex="0" aria-current="page">Über Mich</a></li>
+                <li><a href="03_touren.html">Meine Touren</a></li>
+                <li><a href="04_kontakt.html">Kontakt</a></li>
+            </div>
         </div>
-    <br>
-    <h2>SOCIAL MEDIA</h2>
-    <p>https://www.facebook.com/</p>
-    <p>https://www.instagram.com/</p>
-    <p>https://www.youtube.com/</p>
-    <p>https://www.twitter.com/</p>
-    <br>
-    <p>© 2023 Tom Simmel - Alle Rechte vorbehalten.</p>
-    <nav>
-        <ul>
-            <li><a href="">Impressum</a></li>
-            <li><a href="">Datenschutz</a></li>
-            <li><a href="">AGB</a></li>
-        </ul>
-    </nav>
+        <div class="socialmedia">
+            <h2>SOCIAL MEDIA</h2>
+            <a href="#" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-twitter"></a>
+            <a href="#" class="fa fa-youtube"></a>
+            <a href="#" class="fa fa-instagram"></a>
+        </div>
+        <div class="copyright">
+        <p>© 2023 Tom Simmel - Alle Rechte vorbehalten.</p>
+        </div>
+    </div>
     <!--Footer-->
 
 </body>
