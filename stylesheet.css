@@ -183,10 +183,17 @@ li a:hover {
 .about-text {
     width: 30%;
     padding-left: 3em;
+    text-align: left;
 }
 
 .about-me>button {
     width: 50%;
+}
+
+.about-text>h2 {
+    margin: 0;
+    padding: 0;
+    text-align: left;
 }
 
 /* About Me ENDE */
@@ -282,7 +289,7 @@ li a:hover {
 /*Meine Ausrüstung START */
 
 .ausruestung {
-    width: 100%;
+    width: 90%;
     height: 500px;
     display: flex;
     justify-content: center;
@@ -304,20 +311,22 @@ li a:hover {
 .ausruestung-text {
     display: flex;
     flex-direction: column;
-    max-width: 50%;
+    max-width: 55%;
     padding-left: 3em;
 
 }
 
 .ausruestung-text>h2 {
+
     align-self: flex-start;
     margin: 0;
     padding: 0;
+    text-align: left;
 }
 
 .ausruestung-text>p {
     align-self: flex-start;
-    width: 50%;
+    width: 100%;
 }
 
 /* Meine Ausrüstung Ende */
