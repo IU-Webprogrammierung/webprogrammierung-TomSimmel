@@ -1,7 +1,11 @@
-body,
-html {
-    height: 100%;
-    width: 100%;
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
 }
 
 h1 {
@@ -92,47 +96,43 @@ button:hover {
 
 /* Navigation START */
 
-.navigation {
-    text-align: center;
-}
 
-.navigation ul li{
-    display: inline;
-}
-
-ul {
+.nav {
     list-style-type: none;
-    margin: 0 auto;
     overflow: hidden;
     background-color: white;
     position: fixed;
     top: 0;
     width: 100%;
     z-index: 1000;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+
 }
 
-li {
-    float: left;
-    align: center;
+.nav li {
+    display: inline;
+
 }
 
-li a {
+.nav li a {
     font-family: 'Source Sans 3';
     font-size: 1em;
     color: #343434;
     font-weight: 400;
-    display: block;
-    padding: 1em 1em;
+    padding: 1em;
     text-decoration: none;
+    display: inline-block;
 
 }
 
-li a:hover {
+.nav li a:hover {
     background-color: #F3F3F3;
-    font-weight: bold;
+
 }
 
-.active-seite {
+.nav .active-seite {
     background-color: #F3F3F3;
     font-weight: bold;
 }
@@ -149,13 +149,12 @@ li a:hover {
     background-size: cover;
     position: relative;
     margin-bottom: 5em;
-    width: 100%;
+
 
 }
 
 .hero-text {
     text-align: center;
-    max-width: 30%;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -450,12 +449,32 @@ input[type=button]:hover {
     padding-bottom: 1em;
 }
 
-.ul_footer {
-    list-style-type: none;
-    overflow: hidden;
-    width: 30em;
-    margin: 0 auto;
+.nav-bottom li {
+    display: inline;
+
 }
+
+.nav-bottom li a {
+    font-family: 'Source Sans 3';
+    font-size: 1em;
+    color: #343434;
+    font-weight: 400;
+    padding: 1em;
+    text-decoration: none;
+    display: inline-block;
+
+}
+
+.nav-bottom li a:hover {
+    background-color: #F3F3F3;
+
+}
+
+.nav-bottom .active-seite {
+    background-color: #F3F3F3;
+    font-weight: bold;
+}
+
 
 .socialmedia {
     text-align: center;
@@ -503,6 +522,6 @@ input[type=button]:hover {
 
 /*Footer ENDE */
 
-.Touren18{
+.Touren18 {
     margin-bottom: 8em;
 }
