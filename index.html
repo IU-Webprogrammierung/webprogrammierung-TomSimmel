@@ -7,11 +7,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
         href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Source+Sans+3:ital,wght@0,300;0,400;0,500;0,700;1,300&display=swap"
         rel="stylesheet">
+   
 </head>
 
 <body>
@@ -46,8 +48,8 @@
                 über uns und unseren Blog erfahren willst starte hier! Poste deine Fotos und Videos auf Instagram mit
                 dem Hashtag #wttwcommunity, damit wir und die Community
                 deine Beiträge sehen, liken und kommentieren können. </p>
-                <button>Button</button>
-                <button class="button button2">Button</button>
+            <button>Button</button>
+            <button class="button button2">Button</button>
         </div>
     </div>
     <!--Hi! Schön dass du da bist-->
@@ -126,7 +128,7 @@
                 <input type="radio" id="gender" name="Frau" value="">
                 <label for="F"> Frau </label>
                 <input type="radio" id="gender" name="Keine Angabe value="">
-                <label for="D"> Keine Angabe </label>  <br><br>
+                <label for=" D"> Keine Angabe </label> <br><br>
                 <label for="name">Vorname*</label>
                 <input type="text" id="vname" placeholder="Vorname" required>
                 <label for="nname">Nachname*</label>
@@ -142,17 +144,27 @@
     <!--Kontaktformular-->
 
     <!--Footer-->
-    <h2>NAVIGATION</h2>
-
-    <br>
-    <h2>SOCIAL MEDIA</h2>
-    <p>https://www.facebook.com/</p>
-    <p>https://www.instagram.com/</p>
-    <p>https://www.youtube.com/</p>
-    <p>https://www.twitter.com/</p>
-    <br>
-    <p>© 2023 Tom Simmel - Alle Rechte vorbehalten.</p>
-
+    <div class="footer">
+        <div class="navigation_bottom">
+            <h2>NAVIGATION</h2>
+            <div class="ul_footer">
+                <li><a class="active-seite" tabindex="0" aria-current="page">Startseite</a></li>
+                <li><a href="02_uebermich.html">Über Mich</a></li>
+                <li><a href="03_touren.html">Meine Touren</a></li>
+                <li><a href="04_kontakt.html">Kontakt</a></li>
+            </div>
+        </div>
+        <div class="socialmedia">
+            <h2>SOCIAL MEDIA</h2>
+            <a href="#" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-twitter"></a>
+            <a href="#" class="fa fa-youtube"></a>
+            <a href="#" class="fa fa-instagram"></a>
+        </div>
+        <div class="copyright">
+        <p>© 2023 Tom Simmel - Alle Rechte vorbehalten.</p>
+        </div>
+    </div>
     <!--Footer-->
 
 </body>

@@ -92,18 +92,17 @@ button:hover{
 
 ul {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
+    margin: 0 auto;
     overflow: hidden;
     background-color: white;
     position: fixed;
     top: 0;
     width: 100%;
-    z-index:1000;
+    z-index:1000;    
 }
 
 li {
-    float:left;
+float:left;
    align: center;
 }
 
@@ -201,6 +200,7 @@ li a:hover{
     width: 100%;
     justify-content: center;
     flex-direction: row;
+    flex-wrap: wrap;
     column-gap: 1.5em;
 
 }
@@ -215,18 +215,20 @@ li a:hover{
     padding: 24px;
     margin-top: 1.5em;
     height: 100%;
-
-
 }
 
 .touren-boxen>h3 {
     color: white;
     font-size: 1.25em;
-    text-align: right
+     text-align: right;
+    line-height: 80%;
+    margin: 0;
+    padding: 0;
 }
 
 .touren-boxen>p {
     color: white;
+    
 }
 
 /* Meine letzten Abenteuer ENDE */
@@ -310,6 +312,7 @@ li a:hover{
     justify-content: center;
     align-items: flex-start;
     margin-bottom: 16em;
+    flex-wrap: wrap;
 
 }
 
@@ -384,3 +387,71 @@ input[type=text], select {
     background-color: #08c47f;
     color: white;
   }
+
+  /*Kontakt formular ENDE */
+
+  /* Footer START */
+  .footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #F3F3F3;
+    text-align: center;
+    padding-bottom: 3em;
+  }
+
+  .navigation_bottom {
+    padding-top: 2em;
+    padding-bottom: 1em;
+    }
+
+  .ul_footer {
+    list-style-type: none;
+    overflow: hidden;
+    width: 30em;
+    margin: 0 auto;
+}
+
+.socialmedia {
+    text-align: center;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 0.3em;
+  }
+
+  .fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-youtube {
+    background: #bb0000;
+    color: white;
+  }
+  
+  .fa-instagram {
+    background: #df3082;
+    color: white;
+  }
+
+  .copyright {
+    padding-top: 1em;
+
+  }
+  /*Footer ENDE */
