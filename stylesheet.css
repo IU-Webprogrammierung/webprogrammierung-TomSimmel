@@ -121,7 +121,7 @@ button:hover {
     font-size: 1em;
     color: #343434;
     font-weight: 400;
-    padding: 1em;
+    padding: 1.5em 3em;
     text-decoration: none;
     display: inline-block;
 
@@ -296,6 +296,7 @@ button:hover {
 /*Meine Ausrüstung START */
 
 .ausruestung {
+    margin-top: 3em;
     width: 90%;
     height: 500px;
     display: flex;
@@ -323,10 +324,10 @@ button:hover {
 
 }
 
-.ausruestung-text>h2 {
+.ausruestung-text>h3 {
 
     align-self: flex-start;
-    margin: 0;
+    margin:1em 0;
     padding: 0;
     text-align: left;
 }
@@ -343,6 +344,7 @@ button:hover {
 
 
 .Kontakt {
+    margin-top: 3em;
     width: 100%;
     height: 500px;
     display: flex;
@@ -445,11 +447,11 @@ input[type=button]:hover {
     width: 100%;
     background-color: #F3F3F3;
     text-align: center;
-    padding-bottom: 3em;
+    padding: 4em;
 }
 
 .navigation_bottom {
-    padding-top: 2em;
+    padding-top: 1em;
     padding-bottom: 1em;
 }
 
@@ -463,14 +465,17 @@ input[type=button]:hover {
     font-size: 1em;
     color: #343434;
     font-weight: 400;
-    padding: 1em;
+    padding: 1.5em 1.5em;
+    margin-bottom: 2em;
     text-decoration: none;
     display: inline-block;
+    
 
 }
 
 .nav-bottom li a:hover {
     background-color: #F3F3F3;
+
 
 }
 
@@ -483,11 +488,11 @@ input[type=button]:hover {
 .socialmedia {
     text-align: center;
     padding-top: 1em;
-    padding-bottom: 1em;
+    padding-bottom: 2em;
 }
 
 .fa {
-    padding: 20px;
+    padding: 5px;
     font-size: 30px;
     width: 50px;
     text-align: center;
@@ -500,22 +505,22 @@ input[type=button]:hover {
 }
 
 .fa-facebook {
-    background: #3B5998;
+    background:#343434;
     color: white;
 }
 
 .fa-twitter {
-    background: #55ACEE;
+    background:#343434;
     color: white;
 }
 
 .fa-youtube {
-    background: #bb0000;
+    background:#343434;
     color: white;
 }
 
 .fa-instagram {
-    background: #df3082;
+    background:#343434;
     color: white;
 }
 
