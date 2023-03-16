@@ -8,6 +8,10 @@
     background: transparent;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 section {
     max-width: 1400px;
     margin: 0 auto;
@@ -32,6 +36,7 @@ h2 {
     text-transform: uppercase;
     text-align: center;
 }
+
 
 h3 {
     font-family: 'Inter';
@@ -113,6 +118,7 @@ a {
     padding: 0;
     border: 0;
     outline: 0;
+    animation: smooth;
 }
 
 /* Navigation START */
@@ -169,7 +175,7 @@ a {
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    margin-bottom: 5em;
+    margin-bottom: 2em;
 
 
 }
@@ -178,7 +184,7 @@ a {
     width: 50%;
     text-align: center;
     position: absolute;
-    top: 50%;
+    top: 60%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
@@ -193,6 +199,28 @@ a {
 
 }
 
+.hero-text>a {
+    margin-top: 5em;
+
+}
+
+.material-symbols-outlined {
+    color: white;
+    font-size: 80px !important;
+    margin: 1em 0 !important;
+    padding: 0 0 !important;
+    transition: 0.3s;
+
+}
+
+.material-symbols-outlined:hover {
+    font-size: 600% !important;
+}
+
+#about-me{
+   padding: 3em;
+}
+
 /* Hero-Image Index ENDE */
 
 /* Hero-Image Über mich START */
@@ -203,7 +231,7 @@ a {
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    margin-bottom: 5em;
+    margin-bottom: 2em;
 
 
 }
@@ -227,6 +255,23 @@ a {
 
 }
 
+.material-symbols-outlined {
+    color: white;
+    font-size: 80px !important;
+    margin: 1em 0 !important;
+    padding: 0 0 !important;
+    transition: 0.3s;
+
+}
+
+.material-symbols-outlined:hover {
+    font-size: 600% !important;
+}
+
+#Eckdaten-A{
+   padding: 3em;
+}
+
 /* Hero-Image Über mich ENDE */
 
 /* Hero-Image Touren START */
@@ -237,7 +282,7 @@ a {
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    margin-bottom: 5em;
+    margin-bottom: 2em;
 
 
 }
@@ -261,6 +306,23 @@ a {
 
 }
 
+.material-symbols-outlined {
+    color: white;
+    font-size: 80px !important;
+    margin: 1em 0 !important;
+    padding: 0 0 !important;
+    transition: 0.3s;
+
+}
+
+.material-symbols-outlined:hover {
+    font-size: 600% !important;
+}
+
+#Touren-A{
+   padding: 3em;
+}
+
 /* Hero-Image Touren ENDE */
 
 /* Hero-Image Ellmauerhalt Tour START */
@@ -271,7 +333,7 @@ a {
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    margin-bottom: 5em;
+    margin-bottom: 2em;
 
 
 }
@@ -291,6 +353,23 @@ a {
 
 }
 
+.material-symbols-outlined {
+    color: white;
+    font-size: 80px !important;
+    margin: 1em 0 !important;
+    padding: 0 0 !important;
+    transition: 0.3s;
+
+}
+
+.material-symbols-outlined:hover {
+    font-size: 600% !important;
+}
+
+#Eckdaten-A1{
+   padding: 3em;
+}
+
 /* Hero-Image Ellmauerhalt Tour ENDE */
 
 /* Hero-Image Kontakt START */
@@ -301,7 +380,7 @@ a {
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    margin-bottom: 5em;
+    margin-bottom: 2em;
 
 
 }
@@ -321,7 +400,24 @@ a {
 
 }
 
-/* Hero-Image EKontakt ENDE */
+.material-symbols-outlined {
+    color: white;
+    font-size: 80px !important;
+    margin: 1em 0 !important;
+    padding: 0 0 !important;
+    transition: 0.3s;
+
+}
+
+.material-symbols-outlined:hover {
+    font-size: 600% !important;
+}
+
+#Kontakt-A{
+   padding: 3em;
+}
+
+/* Hero-Image Kontakt ENDE */
 
 
 /* About Me START */
@@ -698,9 +794,9 @@ input[type=button]:hover {
     width: 100%;
     background-color: #F3F3F3;
     text-align: center;
-    padding-top: 3em;
-    padding-bottom: 1em;
-    margin-top: 7em;
+    padding-top: 5em;
+    padding-bottom: 3em;
+    margin-top: 10em;
 }
 
 .navigation_bottom {
@@ -721,7 +817,7 @@ input[type=button]:hover {
     padding: 1em 1em;
     text-decoration: none;
     display: inline-block;
-
+    margin-bottom: 2em;
 
 }
 
@@ -743,8 +839,9 @@ input[type=button]:hover {
     padding-bottom: 1em;
 }
 
+
 .fa {
-    padding: 5px;
+    padding: 8px;
     font-size: 30px;
     width: 50px;
     text-align: center;
