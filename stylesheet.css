@@ -8,11 +8,11 @@
     background: transparent;
 }
 
-section{
+section {
     max-width: 1400px;
     margin: 0 auto;
-    padding-top: 7em;
-    padding-bottom: 7em;
+    padding-top: 5em;
+    padding-bottom: 5em;
 }
 
 h1 {
@@ -217,9 +217,7 @@ button:hover {
 
 
 /* Meine letzten Abenteuer START */
-.Touren-gesamt {
-
-}
+.Touren-gesamt {}
 
 .bereich-touren {
     display: flex;
@@ -445,6 +443,16 @@ input[type=button]:hover {
     color: white;
 }
 
+.Radios>label { 
+    margin-right: 16px;
+}
+
+.Radios {
+    margin-top: 4px;
+    margin-bottom: 16px;
+}
+
+
 /*Kontakt formular ENDE */
 
 /* Footer START */
@@ -477,7 +485,7 @@ input[type=button]:hover {
     padding: 1em 1em;
     text-decoration: none;
     display: inline-block;
-    
+
 
 }
 
@@ -513,7 +521,7 @@ input[type=button]:hover {
 }
 
 .fa-facebook {
-    background:#343434;
+    background: #343434;
     color: white;
 }
 
@@ -539,6 +547,35 @@ input[type=button]:hover {
 
 /*Footer ENDE */
 
-.Touren18 {
-    margin-bottom: 8em;
+/* Touren Timeline START */
+
+details summary {
+    margin-top: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    border: none;
+    cursor: pointer;
+    font-family: 'Inter';
+    font-size: 1.5em;
+    color: #343434;
+    font-weight: medium;
+    letter-spacing: 0.4em;
+    transition: 0.3s;
+
 }
+
+details summary:hover {
+    font-size: 200%;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid #9f9f9f;
+    color: #333;
+    overflow: visible;
+    text-align: center;
+}
+
+/* Touren Timeline ENDE */
