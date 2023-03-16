@@ -61,6 +61,8 @@ q {
     font-size: 1.5em;
     color: black;
     font-weight: medium;
+    line-height: 175%;
+    font-style: italic;
 
 }
 
@@ -410,42 +412,129 @@ a {
 /* Meine letzten Abenteuer ENDE */
 
 
-/* Zitat START */
-.zitat {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(Bilder/tim-muller-fbKeAVK2gM0-unsplash.jpg);
+/* Zitat Index START */
+.zitat-index {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(Bilder/florian-van-duyn-BR1WANLLpDU-unsplash.jpg);
     min-height: 600px;
     max-height: 813px;
-    background-position: bottom center;
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    margin-bottom: 10em;
-    margin-top: 10em;
+    margin-bottom: 5em;
+    margin-top: 5em;
     width: 100%;
 
 }
 
-.zitat-text {
+.zitat-text-index {
+    max-width: 800px;
     text-align: center;
-    max-width: 45%;
     position: absolute;
-    top: 50%;
+    top: 60%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
 }
 
-.zitat-text>q {
+.zitat-text-index>q {
     color: white
 }
 
-.zitat-text>p {
+.zitat-text-index>p {
     color: #F3F3F3;
-    font-size: 0.75em;
-    margin-top: 16px;
+    font-size: 1em;
+    display: flex;
+    text-align: left;
+    justify-content: flex-end;
+    width: 300px;
+    margin: 2em 70%;
 }
 
-/* Zitat ENDE */
+/* Zitat Index ENDE */
+
+/* Zitat Index Über Mich START*/
+.zitat-ueber {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(Bilder/samsommer-vddccTqwal8-unsplash.jpg);
+    min-height: 600px;
+    max-height: 813px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    margin-bottom: 5em;
+    margin-top: 5em;
+    width: 100%;
+
+}
+
+.zitat-text-ueber {
+    max-width: 800px;
+    text-align: center;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.zitat-text-ueber>q {
+    color: white
+}
+
+.zitat-text-ueber>p {
+    color: #F3F3F3;
+    font-size: 1em;
+    display: flex;
+    text-align: left;
+    justify-content: flex-end;
+    width: 300px;
+    margin: 2em 70%;
+}
+
+/* Zitat Index Über Mich ENDE*/
+
+/* Zitat Index Meine Touren START */
+
+.zitat-touren {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(Bilder/jackman-chiu-36Vbwo1OiZU-unsplash.jpg);
+    min-height: 600px;
+    max-height: 813px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    margin-bottom: 5em;
+    margin-top: 5em;
+    width: 100%;
+
+}
+
+.zitat-text-touren {
+    max-width: 800px;
+    text-align: center;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.zitat-text-touren>q {
+    color: white
+}
+
+.zitat-text-touren>p {
+    color: #F3F3F3;
+    font-size: 1em;
+    display: flex;
+    text-align: left;
+    justify-content: flex-end;
+    width: 300px;
+    margin: 2em 70%;
+}
+
+/* Zitat Index Über Mich */
 
 /*Meine Ausrüstung START */
 
