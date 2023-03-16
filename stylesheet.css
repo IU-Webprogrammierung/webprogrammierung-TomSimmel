@@ -100,6 +100,17 @@ button:hover {
 
 }
 
+a:link, a:visited {
+    text-decoration: none;
+   }
+
+
+a {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+}
 
 /* Navigation START */
 
@@ -190,17 +201,16 @@ button:hover {
 }
 
 .about-picture {
-    width: 40%;
+    width: 30%;
     height: 100%;
     background-size: cover;
     background-repeat: no-repeat;
-    padding-right: 5px;
 }
 
 .about-text {
-    width: 60%;
+    width: 50%;
     text-align: left;
-    padding-left: 5px;
+    padding-left: 40px;
 }
 
 .about-me>button {
@@ -217,7 +227,11 @@ button:hover {
 
 
 /* Meine letzten Abenteuer START */
-.Touren-gesamt {}
+
+.bereich-touren>a {
+ display: block;
+ height: 100%;
+}
 
 .bereich-touren {
     display: flex;
@@ -226,7 +240,6 @@ button:hover {
     flex-direction: row;
     flex-wrap: wrap;
     column-gap: 1.5em;
-
 }
 
 .touren-boxen {
@@ -239,6 +252,7 @@ button:hover {
     padding: 24px;
     margin-top: 1.5em;
     height: 100%;
+    
 }
 
 .touren-boxen>h3 {
@@ -550,7 +564,8 @@ input[type=button]:hover {
 /* Touren Timeline START */
 
 details summary {
-    margin-top: 2em;
+    width: 100%;
+    margin-top: 1em;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -571,6 +586,7 @@ details summary:hover {
 }
 
 hr {
+    margin-top: 1em;
     border: none;
     border-top: 1px solid #9f9f9f;
     color: #333;
