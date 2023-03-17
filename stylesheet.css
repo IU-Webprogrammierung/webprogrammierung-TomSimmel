@@ -606,6 +606,17 @@ a {
 
 }
 
+.overlay{
+        min-height: 600px;
+    max-height: 813px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    margin-bottom: 5em;
+    margin-top: 5em;
+    width: 100%;
+}
 .zitat-text-touren {
     max-width: 800px;
     text-align: center;
