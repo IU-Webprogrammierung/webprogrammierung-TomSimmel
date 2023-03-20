@@ -19,6 +19,15 @@ section {
     padding-bottom: 4em;
 }
 
+@media only screen and (max-width: 390px) {
+    section {
+        max-width: 300px;
+        margin: 0 auto;
+        padding-top: 4em;
+        padding-bottom: 4em;
+    }
+}
+
 h1 {
     font-family: 'Inter';
     font-size: 3.5em;
@@ -26,6 +35,12 @@ h1 {
     font-weight: bold;
     text-transform: uppercase;
     text-align: center;
+}
+
+@media only screen and (max-width: 390px) {
+    h1 {
+        font-size: 40px;
+    }
 }
 
 h2 {
@@ -91,6 +106,12 @@ button {
     width: 200px;
     transition: 0.3s;
 }
+
+@media only screen and (max-width: 390px) {
+    button{
+    width: 100%;
+        }
+    }
 
 button:hover {
     background-color: #08c47f;
@@ -169,6 +190,12 @@ img {
     font-weight: bold;
 }
 
+@media only screen and (max-width: 390px) {
+    .nav {
+        display: none;
+    }
+}
+
 /* Navigation ENDE */
 
 
@@ -181,9 +208,8 @@ img {
     background-size: cover;
     position: relative;
     margin-bottom: 2em;
-
-
 }
+
 
 .hero-text {
     width: 70%;
@@ -439,6 +465,11 @@ img {
     align-items: center;
     flex-wrap: wrap;
 }
+@media only screen and (max-width: 390px) {
+    .about-me{
+    height: auto;
+    }
+    }
 
 .about-picture {
     width: 30%;
@@ -448,14 +479,33 @@ img {
     background-repeat: no-repeat;
 }
 
+@media only screen and (max-width: 390px) {
+    .about-picture {
+        width: 100%;
+    }
+}
+
 .about-text {
     width: 50%;
     text-align: left;
     padding-left: 40px;
 }
 
+@media only screen and (max-width: 390px) {
+    .about-text {
+        width: 100%;
+        padding: 0;
+    }
+}
+
 .about-me>button {
     width: 50%;
+}
+
+@media only screen and (max-width: 390px) {
+    .about-me>button {
+    margin-bottom: 1em;
+    }
 }
 
 .about-text>h2 {
@@ -463,6 +513,12 @@ img {
     margin-bottom: 1em;
     padding: 0;
     text-align: left;
+}
+
+@media only screen and (max-width: 390px) {
+    .about-text>h2 {
+        text-align: center;
+    }
 }
 
 /* About Me ENDE */
@@ -498,6 +554,13 @@ img {
     width: 270px;
 
 }
+
+@media only screen and (max-width: 390px) {
+    .touren-boxen {
+    min-height: 0;
+    height: 334px;
+    }
+    }
 
 .touren-boxen>h3 {
     color: white;
@@ -589,6 +652,10 @@ img {
     transform: translate(-50%, -50%);
     color: white;
 }
+@media only screen and (max-width: 390px) {
+    { top:50%;
+    }
+    }
 
 .zitat-text-index>q {
     color: white
@@ -603,6 +670,13 @@ img {
     width: 300px;
     margin: 2em 70%;
 }
+
+@media only screen and (max-width: 390px) {
+    .zitat-text-index>p{
+    margin: 2em 0;
+    text-align: center;
+    }
+    }
 
 /* Zitat Index ENDE */
 
@@ -715,9 +789,10 @@ img {
     background-repeat: no-repeat;
     background-position: center right;
     padding-left: 1em;
-    padding-right: 2.5em ;
+    padding-right: 2.5em;
 
 }
+
 
 .ausruestung-text {
     display: flex;
@@ -752,10 +827,12 @@ img {
     margin: auto;
 }
 
-.content-slider{
+.content-slider {
     display: none;
 }
-.prev, .next {
+
+.prev,
+.next {
     cursor: pointer;
     position: absolute;
     top: 50%;
@@ -768,18 +845,19 @@ img {
     transition: 0.6s ease;
     border-radius: 0 3px 3px 0;
     user-select: none;
-  }
+}
 
-  .next {
+.next {
     right: 0;
     border-radius: 2px 0 0 2px;
-  }
+}
 
-  .prev:hover, .next:hover {
+.prev:hover,
+.next:hover {
     background-color: #F3F3F3
-  }
+}
 
-  .dot {
+.dot {
     cursor: pointer;
     height: 8px;
     width: 8px;
@@ -789,22 +867,28 @@ img {
     border-radius: 50%;
     display: inline-block;
     transition: background-color 0.6s ease;
-  }
-  
-  .active, .dot:hover {
-    background-color: #717171;
-  }
+}
 
-  .fade {
+.active,
+.dot:hover {
+    background-color: #717171;
+}
+
+.fade {
     animation-name: fade;
     animation-duration: 1.5s;
-  }
-  
-  @keyframes fade {
-    from {opacity: .4}
-    to {opacity: 1}
-  }
-  
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
 
 /* Meine Ausrüstung Ende */
 
