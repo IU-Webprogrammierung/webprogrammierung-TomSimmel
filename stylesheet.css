@@ -1342,16 +1342,49 @@ hr {
     text-align: left;
 }
 
+.Mobile-gallery{
+    display: none;
+}
+
+@media only screen and (max-width: 390px) {
+    .Mobile-gallery {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        column-gap: 1em;
+        row-gap: 1em;
+        flex-wrap: wrap;
+    }
+  }
+
+
 .Anfahrt {
     width: 30%;
+}
+
+@media only screen and (max-width: 390px) {
+    .Anfahrt {
+      width: 1000%;
+  }
 }
 
 .Aufstieg {
     width: 30%;
 }
+@media only screen and (max-width: 390px) {
+    .Aufstieg {
+      width: 1000%;
+  }
+}
 
 .Abstieg2 {
     width: 30%;
+}
+@media only screen and (max-width: 390px) {
+    .Abstieg2 {
+      width: 1000%;
+  }
 }
 
 
@@ -1368,6 +1401,12 @@ hr {
     column-gap: 1em;
     row-gap: 1em;
     flex-wrap: wrap;
+}
+
+@media only screen and (max-width: 390px) {
+    .gallery{
+      display: none;
+  }
 }
 
 .gallery>img {
