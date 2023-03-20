@@ -264,8 +264,13 @@ img {
     background-size: cover;
     position: relative;
     margin-bottom: 2em;
+}
 
-
+@media only screen and (max-width: 390px) {
+    .hero-image-uebermich {
+        background-position: 35% 90%;
+        background-size: 500%;
+    }
 }
 
 .hero-text-uebermich {
@@ -710,6 +715,11 @@ img {
     transform: translate(-50%, -50%);
     color: white;
 }
+@media only screen and (max-width: 390px) {
+    .zitat-text-ueber  {
+      top: 50%;
+  }
+}
 
 .zitat-text-ueber>q {
     color: white
@@ -723,6 +733,13 @@ img {
     justify-content: flex-end;
     width: 300px;
     margin: 2em 70%;
+}
+
+@media only screen and (max-width: 390px) {
+    .zitat-text-ueber>p {
+        margin: 2em 0;
+        text-align: center;
+    }
 }
 
 /* Zitat Index Über Mich ENDE*/
@@ -1251,8 +1268,11 @@ hr {
     text-align: center;
     width: 60%;
     margin: 0 auto;
-
-
+}
+@media only screen and (max-width: 390px) {
+    .Eckdaten>p {
+        width: 100%;
+    }
 }
 
 .Gesamt-werte {
@@ -1260,10 +1280,16 @@ hr {
     margin: 3em 0;
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-evenly;
     flex-wrap: wrap;
     column-gap: 3em;
     text-align: center;
+}
+@media only screen and (max-width: 390px) {
+    .Gesamt-werte {
+        width: 100%;
+        row-gap: 3em;
+    }
 }
 
 .Gesamt-werte>div>h3 {
