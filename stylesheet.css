@@ -85,7 +85,8 @@ button {
     color: white;
     padding: 16px 32px;
     text-decoration: none;
-    margin: 4px 2px;
+    margin-top: 2em;
+    margin-right: 2em;
     cursor: pointer;
     width: 200px;
     transition: 0.3s;
@@ -349,7 +350,7 @@ img {
     max-width: 1000px;
     text-align: center;
     position: absolute;
-    top: 55%;
+    top: 60%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
@@ -459,6 +460,7 @@ img {
 
 .about-text>h2 {
     margin: 0;
+    margin-bottom: 1em;
     padding: 0;
     text-align: left;
 }
@@ -493,7 +495,7 @@ img {
     padding: 24px;
     margin-top: 1.5em;
     height: 100%;
-    width: 250px;
+    width: 270px;
 
 }
 
@@ -1122,6 +1124,7 @@ hr {
     justify-content: center;
     flex-wrap: wrap;
     column-gap: 3em;
+    row-gap: 3em;
     text-align: left;
 }
 
