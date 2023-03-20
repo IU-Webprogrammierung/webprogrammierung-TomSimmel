@@ -443,6 +443,7 @@ img {
     width: 30%;
     height: 100%;
     background-size: cover;
+    background-position: center;
     background-repeat: no-repeat;
 }
 
@@ -487,6 +488,7 @@ img {
     justify-content: flex-end;
     flex-direction: column;
     background-size: cover;
+    background-position: center;
     min-height: 600px;
     padding: 24px;
     margin-top: 1.5em;
@@ -737,6 +739,8 @@ img {
 .Logo {
     width: 35px !important;
 }
+
+
 
 /* Meine Ausrüstung Ende */
 
