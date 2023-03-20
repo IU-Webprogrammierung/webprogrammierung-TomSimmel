@@ -131,6 +131,7 @@
     <section>
         <h2> Meine Ausrüstung</h2>
         <div class="ausruestung">
+            y
             <div class="ausruestung-picture" style="background-image:url(Bilder/GrivelAirTech.jpg);"></div>
             <div class="ausruestung-text"><br>
                 <img class="Logo" src="Bilder\Grivel2.png" alt="Grivel Logo">
@@ -149,8 +150,30 @@
                     verstellbarer Handschlaufe oder ohne Zubehör verfügba
                 </p>
             </div>
+            <button class="display-left" onclick="plusDivs(-1)">&#10094;</button>
+            <button class="display-right" onclick="plusDivs(1)">&#10095;</button>
         </div>
     </section>
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
     <!--Ausruestung-->
 
     <!--Kontaktformular-->
