@@ -121,6 +121,10 @@ a {
     animation: smooth;
 }
 
+img{
+    width: 100%;
+}
+
 /* Navigation START */
 
 
@@ -181,7 +185,8 @@ a {
 }
 
 .hero-text {
-    width: 50%;
+    width: 70%;
+    max-width: 1000px;
     text-align: center;
     position: absolute;
     top: 55%;
@@ -288,7 +293,8 @@ a {
 }
 
 .hero-text-touren {
-    width: 50%;
+    width: 70%;
+    max-width: 1000px;
     text-align: center;
     position: absolute;
     top: 55%;
@@ -339,7 +345,8 @@ a {
 }
 
 .hero-text-Tour1 {
-    max-width: 800px;
+    width: 70%;
+    max-width: 1000px;
     text-align: center;
     position: absolute;
     top: 55%;
@@ -386,7 +393,8 @@ a {
 }
 
 .hero-text-kontakt {
-    max-width: 800px;
+    width: 70%;
+    max-width: 1000px;
     text-align: center;
     position: absolute;
     top: 55%;
@@ -512,15 +520,18 @@ a {
 
 
 .zitat-index {
-    min-height: 600px;
-    max-height: 813px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
     margin-bottom: 5em;
     margin-top: 5em;
+    height: 660px;
     width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    overflow: hidden;
 
 }
 
@@ -530,8 +541,11 @@ a {
     flex-direction: row;
     justify-content: center;
     position: absolute;
+    object-fit: cover;
     top: -1%;
-    width: 100%;
+    width: 100% !important;
+    max-width: 1400px !important;
+    overflow: hidden;
 
 
 }
@@ -541,8 +555,11 @@ a {
     flex-direction: row;
     justify-content: center;
     position: absolute;
+    object-fit: cover;
     bottom: 0;
-    width: 100%;
+    width: 100% !important;
+    max-width: 1400px !important;
+    overflow: hidden;
 
 }
 
@@ -551,8 +568,9 @@ a {
     flex-direction: row;
     justify-content: center;
     position: absolute;
+    object-fit: cover;
     bottom: 0;
-    width: 100%;
+
 
 }
 
@@ -585,15 +603,18 @@ a {
 /* Zitat Index Über Mich START*/
 .zitat-ueber {
     background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(Bilder/samsommer-vddccTqwal8-unsplash.jpg);
-    min-height: 600px;
-    max-height: 813px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
     margin-bottom: 5em;
     margin-top: 5em;
+    height: 660px;
     width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    overflow: hidden;
 
 }
 
@@ -627,13 +648,18 @@ a {
 
 .zitat-touren {
     background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(Bilder/jackman-chiu-36Vbwo1OiZU-unsplash.jpg);
-    min-height: 600px;
-    max-height: 813px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    position: absolute;
+    position: relative;
+    margin-bottom: 5em;
+    margin-top: 5em;
+    height: 660px;
     width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    overflow: hidden;
 
 }
 
@@ -706,6 +732,9 @@ a {
     width: 100%;
 }
 
+.Logo {
+    width: 35px !important;
+}
 /* Meine Ausrüstung Ende */
 
 
