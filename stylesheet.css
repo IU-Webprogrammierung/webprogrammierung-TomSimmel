@@ -189,8 +189,14 @@ img {
 
 }
 
+@media only screen and (max-width: 390px) {
+    .nav li a:hover {
+        background-color: transparent;
+    }
+}
+
 .nav .active-seite {
-    background-color: #F3F3F3;
+    background-color: transparent;
     font-weight: bold;
 }
 
@@ -207,6 +213,10 @@ display: none;
 @media screen and (max-width: 390px) {
 .nav .icon{
     display: inline;
+    margin: 0 !important;
+    padding: 0;
+    padding-right: 5em;
+    
 }
 }
 
@@ -215,6 +225,7 @@ display: none;
     .nav .hamburger {
       float: right;
       display: block;
+      
     }
   }
   
@@ -228,8 +239,14 @@ display: none;
     .nav.responsive li {
       float: none;
       display: block;
-      text-align: left;
+      text-align: center;
+      padding-top: 20px;
     }
+  }
+
+    .i.fa.fa-bars{
+    padding: 0 !important;
+    margin: 0 !important;
   }
 
 /* Navigation ENDE */
