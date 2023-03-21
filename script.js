@@ -1,3 +1,4 @@
+/* Slider */
 let slideIndex = 1;
 showSlides(slideIndex);
 
@@ -24,7 +25,17 @@ function showSlides(n) {
   slides[slideIndex-1].style.display = "block";
   dots[slideIndex-1].className += " active";
 }
+/* Slider */
 
-
+/* Navigation */
+function myFunction() {
+  var x = document.getElementById("Topnav");
+  if (x.className === "nav") {
+    x.className += " responsive";
+  } else {
+    x.className = "nav";
+  }
+}
+  /*Navigation*/
 
 
