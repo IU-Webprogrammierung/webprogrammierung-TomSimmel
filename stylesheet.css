@@ -19,6 +19,15 @@ section {
     padding-bottom: 4em;
 }
 
+@media only screen and (max-width: 992px) {
+    section {
+        max-width: 840px;
+        margin: 0 auto;
+        padding-top: 4em;
+        padding-bottom: 4em;
+    }
+}
+
 @media only screen and (max-width: 768px) {
     section {
         max-width: 600px;
@@ -126,6 +135,12 @@ button {
     transition: 0.3s;
 }
 
+@media only screen and (max-width: 992px) {
+    button {
+        width: 40%;
+    }
+}
+
 @media only screen and (max-width: 768px) {
     button {
         width: 100%;
@@ -173,7 +188,7 @@ img {
 }
 
 /* Navigation START */
-.Topnavbar{
+.Topnavbar {
     position: fixed;
     width: 100%;
     z-index: 1000;
@@ -232,93 +247,103 @@ img {
 }
 
 @media only screen and (max-width: 768px) {
-    .nav {
-
-    }
+    .nav {}
 }
 
 @media only screen and (max-width: 576px) {
-    .nav {
-
-    }
+    .nav {}
 }
 
 .nav .icon {
-display: none;
-  }
+    display: none;
+}
 
-  @media only screen and (max-width: 768px) {
-    .nav .icon{
+@media only screen and (max-width: 768px) {
+    .nav .icon {
         display: inline;
         margin: 0 !important;
         padding: 0;
         padding-right: 5em;
-        
+
     }
-    }
+}
 
 @media only screen and (max-width: 576px) {
-.nav .icon{
-    display: inline;
-    margin: 0 !important;
-    padding: 0;
-    padding-right: 5em;
-    
-}
+    .nav .icon {
+        display: inline;
+        margin: 0 !important;
+        padding: 0;
+        padding-right: 5em;
+
+    }
 }
 
 @media only screen and (max-width: 768px) {
-    .nav li {display: none;}
-    .nav .hamburger {
-      float: right;
-      display: block;
-      
+    .nav li {
+        display: none;
     }
-  }
+
+    .nav .hamburger {
+        float: right;
+        display: block;
+
+    }
+}
 
 @media only screen and (max-width: 576px) {
-    .nav li {display: none;}
+    .nav li {
+        display: none;
+    }
+
     .nav .hamburger {
-      float: right;
-      display: block;
-      
-    }
-  }
-  
-  @media only screen and (max-width: 768px) {
-    .nav.responsive {position: relative;}
-    .nav.responsive .icon {
-      position: absolute;
-      right: 0;
-      top: 0;
-    }
-    .nav.responsive li {
-      float: none;
-      display: block;
-      text-align: center;
-      padding-top: 20px;
-    }
-  }
+        float: right;
+        display: block;
 
-  @media only screen and (max-width: 576px) {
-    .nav.responsive {position: relative;}
-    .nav.responsive .icon {
-      position: absolute;
-      right: 0;
-      top: 0;
     }
-    .nav.responsive li {
-      float: none;
-      display: block;
-      text-align: center;
-      padding-top: 20px;
-    }
-  }
+}
 
-    .i.fa.fa-bars{
+@media only screen and (max-width: 768px) {
+    .nav.responsive {
+        position: relative;
+    }
+
+    .nav.responsive .icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    .nav.responsive li {
+        float: none;
+        display: block;
+        text-align: center;
+        padding-top: 20px;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .nav.responsive {
+        position: relative;
+    }
+
+    .nav.responsive .icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    .nav.responsive li {
+        float: none;
+        display: block;
+        text-align: center;
+        padding-top: 20px;
+    }
+}
+
+.i.fa.fa-bars {
     padding: 0 !important;
     margin: 0 !important;
-  }
+}
 
 /* Navigation ENDE */
 
@@ -602,6 +627,12 @@ display: none;
     flex-wrap: wrap;
 }
 
+@media only screen and (max-width: 992px) {
+    .about-me {
+        height: auto;
+    }
+}
+
 @media only screen and (max-width: 768px) {
     .about-me {
         height: auto;
@@ -620,6 +651,15 @@ display: none;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+}
+
+@media only screen and (max-width: 992px) {
+    .about-picture {
+        width: 40%;
+        height: 300px;
+        margin-bottom: 3em;
+        display: none;
+    }
 }
 
 @media only screen and (max-width: 768px) {
@@ -642,12 +682,21 @@ display: none;
     padding-left: 40px;
 }
 
+@media only screen and (max-width: 992px) {
+    .about-text {
+        width: 100%;
+        text-align: center;
+        padding: 0;
+    }
+}
+
 @media only screen and (max-width: 768px) {
     .about-text {
         width: 100%;
         padding: 0;
     }
 }
+
 @media only screen and (max-width: 576px) {
     .about-text {
         width: 100%;
@@ -659,11 +708,19 @@ display: none;
     width: 50%;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 992px) {
     .about-me>button {
-        margin-bottom:0;
+        margin-bottom: 0;
+        width: 20% !important;
     }
 }
+
+@media only screen and (max-width: 768px) {
+    .about-me>button {
+        margin-bottom: 0;
+    }
+}
+
 @media only screen and (max-width: 576px) {
     .about-me>button {
         margin-bottom: 1em;
@@ -677,11 +734,18 @@ display: none;
     text-align: left;
 }
 
+@media only screen and (max-width: 992px) {
+    .about-text>h2 {
+        text-align: center;
+    }
+}
+
 @media only screen and (max-width: 768px) {
     .about-text>h2 {
         text-align: center;
     }
 }
+
 @media only screen and (max-width: 576px) {
     .about-text>h2 {
         text-align: center;
@@ -722,6 +786,13 @@ display: none;
 
 }
 
+@media only screen and (max-width: 992px) {
+    .touren-boxen {
+        min-height: 0;
+        height: 600px;
+    }
+}
+
 @media only screen and (max-width: 768px) {
     .touren-boxen {
         min-height: 0;
@@ -745,9 +816,10 @@ display: none;
     margin: 0;
     padding: 0;
 }
+
 @media only screen and (max-width: 768px) {
     .touren-boxen>h3 {
-     font-size: 1.2em;
+        font-size: 1.2em;
     }
 }
 
@@ -834,19 +906,31 @@ display: none;
 }
 
 @media only screen and (max-width: 768px) {
-    .zitat-text-index  {
-      top: 50%;
-  }
+    .zitat-text-index {
+        top: 50%;
+    }
 }
 
 @media only screen and (max-width: 576px) {
-      .zitat-text-index  {
+    .zitat-text-index {
         top: 50%;
     }
 }
 
 .zitat-text-index>q {
     color: white
+}
+
+@media only screen and (max-width: 768px) {
+    .zitat-text-index>q {
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .zitat-text-index>q {
+        text-align: center;
+    }
 }
 
 .zitat-text-index>p {
@@ -904,14 +988,15 @@ display: none;
 }
 
 @media only screen and (max-width: 768px) {
-    .zitat-text-ueber  {
-      top: 50%;
-  }
+    .zitat-text-ueber {
+        top: 50%;
+    }
 }
+
 @media only screen and (max-width: 576px) {
-    .zitat-text-ueber  {
-      top: 50%;
-  }
+    .zitat-text-ueber {
+        top: 50%;
+    }
 }
 
 .zitat-text-ueber>q {
@@ -1013,6 +1098,15 @@ display: none;
 
 }
 
+@media only screen and (max-width: 992px) {
+    .ausruestung-picture {
+        width: 100%;
+        padding: 0;
+        height: 334px;
+        background-position: center;
+    }
+}
+
 @media only screen and (max-width: 768px) {
     .ausruestung-picture {
         width: 100%;
@@ -1021,6 +1115,7 @@ display: none;
         background-position: center;
     }
 }
+
 @media only screen and (max-width: 576px) {
     .ausruestung-picture {
         width: 100%;
@@ -1037,6 +1132,14 @@ display: none;
     padding-left: 4em;
 }
 
+@media only screen and (max-width: 992px) {
+    .ausruestung-text {
+        padding: 0;
+        width: 100%;
+        text-align: center;
+    }
+}
+
 @media only screen and (max-width: 768px) {
     .ausruestung-text {
         padding: 0;
@@ -1044,6 +1147,7 @@ display: none;
         text-align: center;
     }
 }
+
 @media only screen and (max-width: 576px) {
     .ausruestung-text {
         padding: 0;
@@ -1060,6 +1164,14 @@ display: none;
     text-align: left;
 }
 
+@media only screen and (max-width: 992px) {
+    .ausruestung-text>h3 {
+        padding: 0;
+        width: 100%;
+        text-align: center;
+    }
+}
+
 @media only screen and (max-width: 768px) {
     .ausruestung-text>h3 {
         padding: 0;
@@ -1067,6 +1179,7 @@ display: none;
         text-align: center;
     }
 }
+
 @media only screen and (max-width: 576px) {
     .ausruestung-text>h3 {
         padding: 0;
@@ -1084,6 +1197,14 @@ display: none;
     width: 35px !important;
 }
 
+@media only screen and (max-width: 992px) {
+    .Logo {
+        width: 50px !important;
+        display: flex;
+        margin: 0 auto;
+    }
+}
+
 @media only screen and (max-width: 768px) {
     .Logo {
         width: 50px !important;
@@ -1091,6 +1212,7 @@ display: none;
         margin: 0 auto;
     }
 }
+
 @media only screen and (max-width: 576px) {
     .Logo {
         width: 50px !important;
@@ -1104,6 +1226,28 @@ display: none;
     position: relative;
     margin: auto;
 }
+
+@media only screen and (max-width: 992px) {
+
+    .ausrustung-slider {
+        max-width: 800px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+
+    .ausrustung-slider {
+        max-width: 600px;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+
+    .ausrustung-slider {
+        max-width: 300px;
+    }
+}
+
 
 .content-slider {
     display: none;
@@ -1123,6 +1267,14 @@ display: none;
     transition: 0.6s ease;
     border-radius: 0 3px 3px 0;
     user-select: none;
+}
+
+@media only screen and (max-width: 992px) {
+
+    .prev,
+    .next {
+        top: 35%;
+    }
 }
 
 @media only screen and (max-width: 768px) {
@@ -1200,6 +1352,7 @@ display: none;
     flex-wrap: wrap;
 
 }
+
 @media only screen and (max-width: 768px) {
     .Kontakt {
         width: 100%;
@@ -1323,20 +1476,22 @@ input[type=reset] {
 }
 
 @media only screen and (max-width: 768px) {
+
     input[type=button],
     input[type=submit],
-    input[type=reset]{
+    input[type=reset] {
         width: 100%;
     }
-    }
+}
 
 @media only screen and (max-width: 576px) {
+
     input[type=button],
     input[type=submit],
-    input[type=reset]{
+    input[type=reset] {
         width: 100%;
     }
-    }
+}
 
 input[type=button]:hover {
     background-color: #08c47f;
@@ -1366,25 +1521,31 @@ input[type=button]:hover {
     padding-bottom: 3em;
     margin-top: 10em;
 }
-
+@media only screen and (max-width: 992px) {
+    .footer {
+        margin-top: 1em;
+        padding-top: 1em;
+        padding-bottom: 1em;
+    }
+}
 @media only screen and (max-width: 768px) {
-    .footer{
-    margin-top: 2em;
-    padding-top: 1em;
-    padding-bottom: 1em;
+    .footer {
+        margin-top: 2em;
+        padding-top: 1em;
+        padding-bottom: 1em;
     }
-    }
+}
 
 @media only screen and (max-width: 576px) {
-    .footer{
-    margin-top: 2em;
-    padding-top: 1em;
-    padding-bottom: 1em;
+    .footer {
+        margin-top: 2em;
+        padding-top: 1em;
+        padding-bottom: 1em;
     }
-    }
+}
 
 .navigation_bottom {
-    
+
     padding-top: 2em;
     padding-bottom: 1em;
 }
@@ -1572,7 +1733,7 @@ hr {
     .Gesamt-werte {
         width: 100%;
         row-gap: 3em;
-        column-gap:4.5em;
+        column-gap: 4.5em;
         display: flex;
         flex-direction: row;
         justify-content: space-evenly;
@@ -1635,9 +1796,29 @@ hr {
     text-align: left;
 }
 
-.Mobile-gallery{
+.Mobile-gallery {
     display: none;
 }
+
+@media only screen and (max-width: 992px) {
+    .Mobile-gallery {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        column-gap: 1em;
+        row-gap: 1em;
+        flex-wrap: wrap;
+    }
+
+    .Mobile-gallery>img {
+        min-width: 100%;
+        max-height: 400px;
+        object-fit: cover;
+
+    }
+}
+
 @media only screen and (max-width: 768px) {
     .Mobile-gallery {
         width: 100%;
@@ -1648,13 +1829,14 @@ hr {
         row-gap: 1em;
         flex-wrap: wrap;
     }
-    .Mobile-gallery>img{
-        width: 48%;
-        height: 300px;
+
+    .Mobile-gallery>img {
+        min-width: 48%;
+        max-height: 300px;
         object-fit: cover;
 
     }
-  }
+}
 
 @media only screen and (max-width: 576px) {
     .Mobile-gallery {
@@ -1666,74 +1848,114 @@ hr {
         row-gap: 1em;
         flex-wrap: wrap;
     }
-    .Mobile-gallery>img{
-        width:100%;
+
+    .Mobile-gallery>img {
+        width: 100%;
         height: 300px;
         object-fit: cover;
 
     }
-  }
+}
 
 
 .Anfahrt {
     width: 30%;
 }
-@media only screen and (max-width: 768px) {
+
+@media only screen and (max-width: 992px) {
     .Anfahrt {
-      width: 100%;
-    
-  }
-    .Anfahrt>H3{
+        width: 100%;
+
+    }
+
+    .Anfahrt>H3 {
         text-align: center;
     }
-}   
+}
+
+@media only screen and (max-width: 768px) {
+    .Anfahrt {
+        width: 100%;
+
+    }
+
+    .Anfahrt>H3 {
+        text-align: center;
+    }
+}
 
 @media only screen and (max-width: 576px) {
     .Anfahrt {
-      width: 100%;
-      text-align: center;
-  }
+        width: 100%;
+        text-align: center;
+    }
 }
 
 
 .Aufstieg {
     width: 30%;
 }
-@media only screen and (max-width: 768px) {
+
+@media only screen and (max-width: 992px) {
     .Aufstieg {
-      width: 100%;
-    
-  }
-    .Aufstieg>H3{
+        width: 100%;
+
+    }
+
+    .Aufstieg>H3 {
         text-align: center;
     }
-}   
+}
+
+@media only screen and (max-width: 768px) {
+    .Aufstieg {
+        width: 100%;
+
+    }
+
+    .Aufstieg>H3 {
+        text-align: center;
+    }
+}
 
 @media only screen and (max-width: 576px) {
     .Aufstieg {
-      width: 100%;
-      text-align: center;
-  }
+        width: 100%;
+        text-align: center;
+    }
 }
 
 .Abstieg2 {
     width: 30%;
 }
-@media only screen and (max-width: 768px) {
+
+@media only screen and (max-width: 992px) {
     .Abstieg2 {
-      width: 100%;
-    
-  }
-    .Abstieg2>H3{
+        width: 100%;
+
+    }
+
+    .Abstieg2>H3 {
         text-align: center;
     }
-}   
+}
+
+@media only screen and (max-width: 768px) {
+    .Abstieg2 {
+        width: 100%;
+
+    }
+
+    .Abstieg2>H3 {
+        text-align: center;
+    }
+}
 
 @media only screen and (max-width: 576px) {
     .Abstieg2 {
-      width: 100%;
-      text-align: center;
-  }
+        width: 100%;
+        text-align: center;
+    }
 }
 
 
@@ -1751,18 +1973,20 @@ hr {
     row-gap: 1em;
     flex-wrap: wrap;
 }
-
-@media only screen and (max-width: 768px) {
-    .gallery{
-      display: none;
-  }
+@media only screen and (max-width: 992px) {
+    .gallery {
+        display: none;
+    }
 }
-
-
+@media only screen and (max-width: 768px) {
+    .gallery {
+        display: none;
+    }
+}
 @media only screen and (max-width: 576px) {
-    .gallery{
-      display: none;
-  }
+    .gallery {
+        display: none;
+    }
 }
 
 .gallery>img {
