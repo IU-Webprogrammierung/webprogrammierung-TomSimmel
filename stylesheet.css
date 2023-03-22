@@ -1523,7 +1523,7 @@ input[type=button]:hover {
 }
 @media only screen and (max-width: 992px) {
     .footer {
-        margin-top: 1em;
+        margin-top: 7em;
         padding-top: 1em;
         padding-bottom: 1em;
     }
