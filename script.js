@@ -28,7 +28,7 @@ function showSlides(n) {
 /* Slider */
 
 /* Navigation */
-function myFunction() {
+function ResponsiveNavigation() {
   var x = document.getElementById("Topnav");
   if (x.className === "nav") {
     x.className += " responsive";
