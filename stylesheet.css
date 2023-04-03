@@ -286,9 +286,10 @@ img {
 @media only screen and (max-width: 768px) {
     .nav .icon {
         display: inline;
+        position: 50%;
         margin: 0 !important;
         padding: 0;
-        padding-right: 5em;
+        padding-right:0;
 
     }
 }
@@ -298,7 +299,8 @@ img {
         display: inline;
         margin: 0 !important;
         padding: 0;
-        padding-right: 5em;
+        margin-right: 3em;
+        padding-right: 0em;
 
     }
 }
@@ -323,6 +325,7 @@ img {
     .nav .hamburger {
         float: right;
         display: block;
+        margin-right: 3em;
 
     }
 }
@@ -353,7 +356,7 @@ img {
 
     .nav.responsive .icon {
         position: absolute;
-        right: 0;
+        right: 3em;
         top: 0;
     }
 
@@ -368,6 +371,10 @@ img {
 .i.fa.fa-bars {
     padding: 0 !important;
     margin: 0 !important;
+}
+@media only screen and (max-width: 576px) {
+.i.fa.fa-bars {
+}
 }
 
 /* ///////////////////////////////////////////////////////////////////////////////////////////////// */
