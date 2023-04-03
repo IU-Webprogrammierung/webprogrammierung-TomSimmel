@@ -1,3 +1,16 @@
+/* ########################################################################################### */
+/* ---------------------------------------- START CSS ---------------------------------------- */
+/* /////////////////////////////////////////////////////////////////////////////////////////// */
+
+
+
+
+
+
+/* ########################################################################################################## */
+/* ----------------------------------------  Globale Einstellungen  ----------------------------------------  */
+/* ////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
 * {
     margin: 0;
     padding: 0;
@@ -66,7 +79,7 @@ h1 {
 
 @media only screen and (max-width: 576px) {
     h1 {
-        font-size: 40px;
+        font-size: 30px;
     }
 }
 
@@ -187,7 +200,19 @@ img {
     width: 100%;
 }
 
-/* Navigation START */
+/* ////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* ----------------------------------------  Globale Einstellungen  ----------------------------------------  */
+/* ########################################################################################################## */
+
+
+
+
+
+
+/* #################################################################################################### */
+/* ----------------------------------------  Navigation START ----------------------------------------  */
+/* //////////////////////////////////////////////////////////////////////////////////////////////////// */
+
 .Topnavbar {
     position: fixed;
     width: 100%;
@@ -261,9 +286,10 @@ img {
 @media only screen and (max-width: 768px) {
     .nav .icon {
         display: inline;
+        position: 50%;
         margin: 0 !important;
         padding: 0;
-        padding-right: 5em;
+        padding-right:0;
 
     }
 }
@@ -273,7 +299,8 @@ img {
         display: inline;
         margin: 0 !important;
         padding: 0;
-        padding-right: 5em;
+        margin-right: 3em;
+        padding-right: 0em;
 
     }
 }
@@ -298,6 +325,7 @@ img {
     .nav .hamburger {
         float: right;
         display: block;
+        margin-right: 3em;
 
     }
 }
@@ -328,7 +356,7 @@ img {
 
     .nav.responsive .icon {
         position: absolute;
-        right: 0;
+        right: 3em;
         top: 0;
     }
 
@@ -344,11 +372,24 @@ img {
     padding: 0 !important;
     margin: 0 !important;
 }
+@media only screen and (max-width: 576px) {
+.i.fa.fa-bars {
+}
+}
 
-/* Navigation ENDE */
+/* ///////////////////////////////////////////////////////////////////////////////////////////////// */
+/* ---------------------------------------- Navigation ENDE ---------------------------------------- */
+/* ################################################################################################# */
 
 
-/* Hero-Image Index START */
+
+
+
+
+/* ######################################################################################################## */
+/* ---------------------------------------- Hero-Image Index START ---------------------------------------- */
+/* //////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
 .hero-image {
     background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(Bilder/eberhard-grossgasteiger-iMnezp9R_dc-unsplash.jpg);
     height: calc(100vh);
@@ -358,7 +399,6 @@ img {
     position: relative;
     margin-bottom: 2em;
 }
-
 
 .hero-text {
     width: 70%;
@@ -402,9 +442,19 @@ img {
     padding: 3em;
 }
 
-/* Hero-Image Index ENDE */
+/* /////////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* ---------------------------------------- Hero-Image Index ENDE ---------------------------------------- */
+/* ####################################################################################################### */
 
-/* Hero-Image Über mich START */
+
+
+
+
+
+/* ############################################################################################################ */
+/* ---------------------------------------- Hero-Image Über mich START ---------------------------------------- */
+/* //////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
 .hero-image-uebermich {
     background-image: linear-gradient(rgba(0, 0, 0, 0.100), rgba(0, 0, 0, 0.100)), url(Bilder/sheshan-r-4AU8t0aQHVI-unsplash.jpg);
     height: calc(100vh);
@@ -424,7 +474,7 @@ img {
 
 @media only screen and (max-width: 576px) {
     .hero-image-uebermich {
-        background-position: 35% 90%;
+        background-position: 35% 50%;
         background-size: 500%;
     }
 }
@@ -465,9 +515,19 @@ img {
     padding: 3em;
 }
 
-/* Hero-Image Über mich ENDE */
+/* /////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* ---------------------------------------- Hero-Image Über mich ENDE ---------------------------------------- */
+/* ########################################################################################################### */
 
-/* Hero-Image Touren START */
+
+
+
+
+
+/* ######################################################################################################### */
+/* ---------------------------------------- Hero-Image Touren START ---------------------------------------- */
+/* ///////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
 .hero-image-touren {
     background-image: linear-gradient(rgba(0, 0, 0, 0.400), rgba(0, 0, 0, 0.400)), url(Bilder/daniel-sessler-MR8I-lWVsh4-unsplash.jpg);
     height: calc(100vh);
@@ -517,9 +577,19 @@ img {
     padding: 3em;
 }
 
-/* Hero-Image Touren ENDE */
+/* //////////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* ---------------------------------------- Hero-Image Touren ENDE ---------------------------------------- */
+/* ######################################################################################################## */
 
-/* Hero-Image Ellmauerhalt Tour START */
+
+
+
+
+
+/* #################################################################################################################### */
+/* ---------------------------------------- Hero-Image Ellmauerhalt Tour START ---------------------------------------- */
+/* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
 .hero-image-Tour1 {
     background-image: linear-gradient(rgba(0, 0, 0, 0.301), rgba(0, 0, 0, 0.301)), url(Bilder/tamas-tuzes-katai-jMncnJKd928-unsplash.jpg);
     height: calc(100vh);
@@ -565,9 +635,18 @@ img {
     padding: 3em;
 }
 
-/* Hero-Image Ellmauerhalt Tour ENDE */
+/* /////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* ---------------------------------------- Hero-Image Ellmauerhalt Tour ENDE ---------------------------------------- */
+/* ################################################################################################################### */
 
-/* Hero-Image Kontakt START */
+
+
+
+
+/* ########################################################################################################## */
+/* ---------------------------------------- Hero-Image Kontakt START ---------------------------------------- */
+/* ////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
 .hero-image-kontakt {
     background-image: linear-gradient(rgba(0, 0, 0, 0.301), rgba(0, 0, 0, 0.301)), url(Bilder/christopher-burns-Lh2qwkppkf8-unsplash.jpg);
     height: calc(100vh);
@@ -613,11 +692,20 @@ img {
     padding: 3em;
 }
 
-/* Hero-Image Kontakt ENDE */
+/* ///////////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* ---------------------------------------- Hero-Image Kontakt ENDE ---------------------------------------- */
+/* ######################################################################################################### */
 
 
-/* About Me START */
-.about-me {
+
+
+
+
+/* ################################################################################################ */
+/* ---------------------------------------- Willkommen START ---------------------------------------- */
+/* //////////////////////////////////////////////////////////////////////////////////////////////// */
+
+.willkommen {
     width: 100%;
     height: 500px;
     display: flex;
@@ -628,24 +716,24 @@ img {
 }
 
 @media only screen and (max-width: 992px) {
-    .about-me {
+    .willkommen {
         height: auto;
     }
 }
 
 @media only screen and (max-width: 768px) {
-    .about-me {
+    .willkommen {
         height: auto;
     }
 }
 
 @media only screen and (max-width: 576px) {
-    .about-me {
+    .willkommen {
         height: auto;
     }
 }
 
-.about-picture {
+.willkommen-picture {
     width: 30%;
     height: 100%;
     background-size: cover;
@@ -654,7 +742,7 @@ img {
 }
 
 @media only screen and (max-width: 992px) {
-    .about-picture {
+    .willkommen-picture {
         width: 40%;
         height: 300px;
         margin-bottom: 3em;
@@ -663,7 +751,7 @@ img {
 }
 
 @media only screen and (max-width: 768px) {
-    .about-picture {
+    .willkommen-picture {
         width: 100%;
         height: 300px;
         margin-bottom: 3em;
@@ -671,19 +759,19 @@ img {
 }
 
 @media only screen and (max-width: 576px) {
-    .about-picture {
+    .willkommen-picture {
         width: 100%;
     }
 }
 
-.about-text {
+.willkommen-text {
     width: 50%;
     text-align: left;
     padding-left: 40px;
 }
 
 @media only screen and (max-width: 992px) {
-    .about-text {
+    .willkommen-text {
         width: 100%;
         text-align: center;
         padding: 0;
@@ -691,25 +779,25 @@ img {
 }
 
 @media only screen and (max-width: 768px) {
-    .about-text {
+    .willkommen-text {
         width: 100%;
         padding: 0;
     }
 }
 
 @media only screen and (max-width: 576px) {
-    .about-text {
+    .willkommen-text {
         width: 100%;
         padding: 0;
     }
 }
 
-.about-me>button {
+.willkommen>button {
     width: 50%;
 }
 
 @media only screen and (max-width: 992px) {
-    .about-me>button {
+    .willkommen>button {
         margin-bottom: 0;
         width: 20% !important;
     }
@@ -722,12 +810,12 @@ img {
 }
 
 @media only screen and (max-width: 576px) {
-    .about-me>button {
+    .willkommen>button {
         margin-bottom: 1em;
     }
 }
 
-.about-text>h2 {
+.willkommen-text>h2 {
     margin: 0;
     margin-bottom: 1em;
     padding: 0;
@@ -735,27 +823,35 @@ img {
 }
 
 @media only screen and (max-width: 992px) {
-    .about-text>h2 {
+    .willkommen-text>h2 {
         text-align: center;
     }
 }
 
 @media only screen and (max-width: 768px) {
-    .about-text>h2 {
+    .willkommen-text>h2 {
         text-align: center;
     }
 }
 
 @media only screen and (max-width: 576px) {
-    .about-text>h2 {
+    .willkommen-text>h2 {
         text-align: center;
     }
 }
 
-/* About Me ENDE */
+/* ///////////////////////////////////////////////////////////////////////////////////////////////// */
+/*  ---------------------------------------- Willkommen ENDE  ---------------------------------------- */
+/* ################################################################################################# */
 
 
-/* Meine letzten Abenteuer START */
+
+
+
+
+/* ############################################################################################################### */
+/* ---------------------------------------- Meine letzten Abenteuer START ---------------------------------------- */
+/* /////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
 
 .bereich-touren>a {
     display: block;
@@ -833,11 +929,18 @@ img {
     transition: .3s ease;
 }
 
-/* Meine letzten Abenteuer ENDE */
+/* ////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* ---------------------------------------- Meine letzten Abenteuer ENDE ---------------------------------------- */
+/* ############################################################################################################## */
 
 
-/* Zitat Index START */
 
+
+
+
+/* ################################################################################################### */
+/* ---------------------------------------- Zitat Index START ---------------------------------------- */
+/* /////////////////////////////////////////////////////////////////////////////////////////////////// */
 
 .zitat-index {
     background-position: center;
@@ -854,46 +957,6 @@ img {
     overflow: hidden;
 
 }
-
-.overlay-top-zitat {
-    transform: scaleY(-1);
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    position: absolute;
-    object-fit: cover;
-    top: -1%;
-    width: 100% !important;
-    max-width: 1400px !important;
-    overflow: hidden;
-
-
-}
-
-.overlay-bottom-zitat {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    position: absolute;
-    object-fit: cover;
-    bottom: 0;
-    width: 100% !important;
-    max-width: 1400px !important;
-    overflow: hidden;
-
-}
-
-.overlay-bottom-hero {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    position: absolute;
-    object-fit: cover;
-    bottom: 0;
-
-
-}
-
 
 .zitat-text-index {
     max-width: 800px;
@@ -957,9 +1020,19 @@ img {
     }
 }
 
-/* Zitat Index ENDE */
+/* ////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* ---------------------------------------- Zitat Index ENDE ---------------------------------------- */
+/* ################################################################################################## */
 
-/* Zitat Index Über Mich START*/
+
+
+
+
+
+/* ############################################################################################################# */
+/* ---------------------------------------- Zitat Index Über Mich START ---------------------------------------- */
+/* ///////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
 .zitat-ueber {
     background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(Bilder/samsommer-vddccTqwal8-unsplash.jpg);
     background-position: center;
@@ -1026,10 +1099,19 @@ img {
         text-align: center;
     }
 }
+/* ///////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* ---------------------------------------- Zitat Index Über Mich ENDE ---------------------------------------- */
+/* ############################################################################################################ */
 
-/* Zitat Index Über Mich ENDE*/
 
-/* Zitat Index Meine Touren START */
+
+
+
+
+
+/* ################################################################################################################ */
+/* ---------------------------------------- Zitat Index Meine Touren START ---------------------------------------- */
+/* //////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
 
 .zitat-touren {
     background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(Bilder/jackman-chiu-36Vbwo1OiZU-unsplash.jpg);
@@ -1071,10 +1153,18 @@ img {
     width: 300px;
     margin: 2em 70%;
 }
+/* /////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* ---------------------------------------- Zitat Index Meine Touren ENDE ---------------------------------------- */
+/* ############################################################################################################### */
 
-/* Zitat Index Über Mich */
 
-/*Meine Ausrüstung START */
+
+
+
+
+/* ######################################################################################################## */
+/* ---------------------------------------- Meine Ausrüstung START ---------------------------------------- */
+/* //////////////////////////////////////////////////////////////////////////////////////////////////////// */
 
 .ausruestung {
     width: 100%;
@@ -1335,12 +1425,18 @@ img {
     }
 }
 
+/* /////////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* ---------------------------------------- Meine Ausrüstung ENDE ---------------------------------------- */
+/* ####################################################################################################### */
 
-/* Meine Ausrüstung Ende */
 
 
-/*Kontakt formular START */
 
+
+
+/* ######################################################################################################## */
+/* ---------------------------------------- Kontakt formular START ---------------------------------------- */
+/* //////////////////////////////////////////////////////////////////////////////////////////////////////// */
 
 .Kontakt {
     width: 100%;
@@ -1506,155 +1602,19 @@ input[type=button]:hover {
     margin-top: 4px;
     margin-bottom: 16px;
 }
+/* /////////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* ---------------------------------------- Kontakt formular ENDE ---------------------------------------- */
+/* ####################################################################################################### */
 
 
-/*Kontakt formular ENDE */
-
-/* Footer START */
-.footer {
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: #F3F3F3;
-    text-align: center;
-    padding-top: 5em;
-    padding-bottom: 3em;
-    margin-top: 10em;
-}
-@media only screen and (max-width: 992px) {
-    .footer {
-        margin-top: 7em;
-        padding-top: 1em;
-        padding-bottom: 1em;
-    }
-}
-@media only screen and (max-width: 768px) {
-    .footer {
-        margin-top: 2em;
-        padding-top: 1em;
-        padding-bottom: 1em;
-    }
-}
-
-@media only screen and (max-width: 576px) {
-    .footer {
-        margin-top: 2em;
-        padding-top: 1em;
-        padding-bottom: 1em;
-    }
-}
-
-.navigation_bottom {
-
-    padding-top: 2em;
-    padding-bottom: 1em;
-}
-
-@media only screen and (max-width: 576px) {
-    .nav-bottom {
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        padding-top: 2em;
-    }
-}
-
-.nav-bottom li {
-    display: inline;
-
-}
-
-.nav-bottom li a {
-    font-family: 'Source Sans 3';
-    font-size: 1em;
-    color: #343434;
-    font-weight: 400;
-    padding: 1em 1em;
-    text-decoration: none;
-    display: inline-block;
-    margin-bottom: 2em;
-
-}
-
-.nav-bottom li a:hover {
-    background-color: #F3F3F3;
 
 
-}
-
-.nav-bottom .active-seite {
-    background-color: #F3F3F3;
-    font-weight: bold;
-}
 
 
-.socialmedia {
-    text-align: center;
-    padding-top: 1em;
-    padding-bottom: 1em;
-}
 
-@media only screen and (max-width: 576px) {
-    .socialmedia {
-        width: 100%;
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        padding-top: 2em;
-    }
-}
-
-
-.fa {
-    padding: 8px;
-    font-size: 30px;
-    width: 50px;
-    text-align: center;
-    text-decoration: none;
-    margin: 0.3em;
-}
-
-@media only screen and (max-width: 576px) {
-    .fa {
-        width: 100%;
-        padding: 16px;
-        margin: 16px;
-
-    }
-}
-
-.fa:hover {
-    opacity: 0.7;
-}
-
-.fa-facebook {
-    background: #343434;
-    color: white;
-}
-
-.fa-twitter {
-    background: #343434;
-    color: white;
-}
-
-.fa-youtube {
-    background: #343434;
-    color: white;
-}
-
-.fa-instagram {
-    background: #343434;
-    color: white;
-}
-
-.copyright {
-    padding-top: 1em;
-
-}
-
-/*Footer ENDE */
-
-/* Touren Timeline START */
+/* ####################################################################################################### */
+/* ---------------------------------------- Touren Timeline START ---------------------------------------- */
+/* /////////////////////////////////////////////////////////////////////////////////////////////////////// */
 
 details summary {
     width: 100%;
@@ -1687,9 +1647,19 @@ hr {
     text-align: center;
 }
 
-/* Touren Timeline ENDE */
+/* ////////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* ---------------------------------------- Touren Timeline ENDE ---------------------------------------- */
+/* ###################################################################################################### */
 
-/* Eckdaten START */
+
+
+
+
+
+/* ################################################################################################ */
+/* ---------------------------------------- Eckdaten START ---------------------------------------- */
+/* //////////////////////////////////////////////////////////////////////////////////////////////// */
+
 .Eckdaten {
     display: flex;
     flex-direction: column;
@@ -1721,6 +1691,8 @@ hr {
 .Gesamt-werte {
     width: 100%;
     margin: 3em 0;
+    column-gap: 4.5em;
+    row-gap: 3em;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -1744,6 +1716,7 @@ hr {
     .Gesamt-werte {
         width: 100%;
         row-gap: 3em;
+        column-gap: 10em;
     }
 }
 
@@ -1751,9 +1724,18 @@ hr {
     letter-spacing: normal;
 }
 
-/* Eckdaten ENDE */
+/* /////////////////////////////////////////////////////////////////////////////////////////////// */
+/* ---------------------------------------- Eckdaten ENDE ---------------------------------------- */
+/* ############################################################################################### */
 
-/* Spacer START */
+
+
+
+
+
+/* ############################################################################################## */
+/* ---------------------------------------- Spacer START ---------------------------------------- */
+/* ////////////////////////////////////////////////////////////////////////////////////////////// */
 
 .spacer {
     background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(Bilder/todd-diemer-fpNBYsymggk-unsplash.jpg);
@@ -1768,9 +1750,19 @@ hr {
     width: 100%;
 }
 
-/* Spacer ENDE */
+/* ///////////////////////////////////////////////////////////////////////////////////////////// */
+/* ---------------------------------------- Spacer ENDE ---------------------------------------- */
+/* ############################################################################################# */
 
-/* Tourenbericht START*/
+
+
+
+
+
+/* ##################################################################################################### */
+/* ---------------------------------------- Tourenbericht START ---------------------------------------- */
+/* ///////////////////////////////////////////////////////////////////////////////////////////////////// */
+
 .Tourenbericht {
     display: flex;
     flex-direction: column;
@@ -1958,12 +1950,19 @@ hr {
     }
 }
 
+/* ///////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* ---------------------------------------- Tourenbericht ENDE ---------------------------------------- */
+/* #################################################################################################### */
 
-/* Tourenbericht ENDE */
 
 
 
-/* Gallery START */
+
+
+/* ############################################################################################### */
+/* ---------------------------------------- Gallery START ---------------------------------------- */
+/* /////////////////////////////////////////////////////////////////////////////////////////////// */
+
 .gallery {
     width: 100%;
     display: flex;
@@ -1996,4 +1995,221 @@ hr {
     object-fit: cover;
 }
 
-/* Gallery ENDE */
+/* ////////////////////////////////////////////////////////////////////////////////////////////// */
+/* ---------------------------------------- Gallery ENDE ---------------------------------------- */
+/* ############################################################################################## */
+
+
+
+
+
+
+/* ############################################################################################### */
+/* ---------------------------------------- Overlay START ---------------------------------------- */
+/* /////////////////////////////////////////////////////////////////////////////////////////////// */
+
+
+.overlay-top-zitat {
+    transform: scaleY(-1);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: absolute;
+    object-fit: cover;
+    top: -1%;
+    width: 100% !important;
+    max-width: 1400px !important;
+    overflow: hidden;
+
+
+}
+
+.overlay-bottom-zitat {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: absolute;
+    object-fit: cover;
+    bottom: 0;
+    width: 100% !important;
+    max-width: 1400px !important;
+    overflow: hidden;
+
+}
+
+.overlay-bottom-hero {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: absolute;
+    object-fit: cover;
+    width: 100%;
+    bottom: 0;
+}
+
+/* ////////////////////////////////////////////////////////////////////////////////////////////// */
+/* ---------------------------------------- Overlay ENDE ---------------------------------------- */
+/* ############################################################################################## */
+
+
+
+
+
+
+/* ############################################################################################## */
+/* ---------------------------------------- Footer START ---------------------------------------- */
+/* ////////////////////////////////////////////////////////////////////////////////////////////// */
+
+.footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #F3F3F3;
+    text-align: center;
+    padding-top: 5em;
+    padding-bottom: 3em;
+    margin-top: 10em;
+}
+@media only screen and (max-width: 992px) {
+    .footer {
+        margin-top: 7em;
+        padding-top: 1em;
+        padding-bottom: 1em;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .footer {
+        margin-top: 2em;
+        padding-top: 1em;
+        padding-bottom: 1em;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .footer {
+        margin-top: 2em;
+        padding-top: 1em;
+        padding-bottom: 1em;
+    }
+}
+
+.navigation_bottom {
+
+    padding-top: 2em;
+    padding-bottom: 1em;
+}
+
+@media only screen and (max-width: 576px) {
+    .nav-bottom {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        padding-top: 2em;
+    }
+}
+
+.nav-bottom li {
+    display: inline;
+
+}
+
+.nav-bottom li a {
+    font-family: 'Source Sans 3';
+    font-size: 1em;
+    color: #343434;
+    font-weight: 400;
+    padding: 1em 1em;
+    text-decoration: none;
+    display: inline-block;
+    margin-bottom: 2em;
+
+}
+
+.nav-bottom li a:hover {
+    background-color: #F3F3F3;
+
+
+}
+
+.nav-bottom .active-seite {
+    background-color: #F3F3F3;
+    font-weight: bold;
+}
+
+
+.socialmedia {
+    text-align: center;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+@media only screen and (max-width: 576px) {
+    .socialmedia {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding-top: 2em;
+    }
+}
+
+
+.fa {
+    padding: 8px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 0.3em;
+}
+
+@media only screen and (max-width: 576px) {
+    .fa {
+        width: 100%;
+        padding: 16px;
+        margin: 16px;
+
+    }
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    background: #343434;
+    color: white;
+}
+
+.fa-twitter {
+    background: #343434;
+    color: white;
+}
+
+.fa-youtube {
+    background: #343434;
+    color: white;
+}
+
+.fa-instagram {
+    background: #343434;
+    color: white;
+}
+
+.copyright {
+    padding-top: 1em;
+
+}
+
+/* ///////////////////////////////////////////////////////////////////////////////////////////// */
+/* ---------------------------------------- Footer ENDE ---------------------------------------- */
+/* ############################################################################################# */
+
+
+
+
+
+
+/* ////////////////////////////////////////////////////////////////////////////////////////// */
+/* ---------------------------------------- ENDE CSS ---------------------------------------- */
+/* ########################################################################################## */
