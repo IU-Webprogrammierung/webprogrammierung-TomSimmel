@@ -742,7 +742,7 @@ img {
 }
 
 @media only screen and (max-width: 992px) {
-    .willkommen-picture {
+    .willkommen-bild {
         width: 40%;
         height: 300px;
         margin-bottom: 3em;
@@ -751,7 +751,7 @@ img {
 }
 
 @media only screen and (max-width: 768px) {
-    .willkommen-picture {
+    .willkommen-bild {
         width: 100%;
         height: 300px;
         margin-bottom: 3em;
@@ -759,7 +759,7 @@ img {
 }
 
 @media only screen and (max-width: 576px) {
-    .willkommen-picture {
+    .willkommen-bild {
         width: 100%;
     }
 }
@@ -1177,7 +1177,7 @@ img {
 
 }
 
-.ausruestung-picture {
+.ausruestung-bild {
     width: 30%;
     height: 400px;
     background-size: contain;
@@ -1189,7 +1189,7 @@ img {
 }
 
 @media only screen and (max-width: 992px) {
-    .ausruestung-picture {
+    .ausruestung-bild {
         width: 100%;
         padding: 0;
         height: 334px;
@@ -1198,7 +1198,7 @@ img {
 }
 
 @media only screen and (max-width: 768px) {
-    .ausruestung-picture {
+    .ausruestung-bild{
         width: 100%;
         padding: 0;
         height: 334px;
@@ -1207,7 +1207,7 @@ img {
 }
 
 @media only screen and (max-width: 576px) {
-    .ausruestung-picture {
+    .ausruestung-bild {
         width: 100%;
         padding: 0;
         background-position: center;
