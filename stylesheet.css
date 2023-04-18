@@ -289,7 +289,7 @@ img {
         position: 50%;
         margin: 0 !important;
         padding: 0;
-        padding-right:0;
+        padding-right: 0;
 
     }
 }
@@ -372,9 +372,9 @@ img {
     padding: 0 !important;
     margin: 0 !important;
 }
+
 @media only screen and (max-width: 576px) {
-.i.fa.fa-bars {
-}
+    .i.fa.fa-bars {}
 }
 
 /* ///////////////////////////////////////////////////////////////////////////////////////////////// */
@@ -867,6 +867,8 @@ img {
     column-gap: 1.5em;
 }
 
+
+
 .touren-boxen {
     display: flex;
     text-align: right;
@@ -881,6 +883,7 @@ img {
     width: 270px;
 
 }
+
 
 @media only screen and (max-width: 992px) {
     .touren-boxen {
@@ -1099,6 +1102,7 @@ img {
         text-align: center;
     }
 }
+
 /* ///////////////////////////////////////////////////////////////////////////////////////////////////////////// */
 /* ---------------------------------------- Zitat Index Über Mich ENDE ---------------------------------------- */
 /* ############################################################################################################ */
@@ -1153,6 +1157,7 @@ img {
     width: 300px;
     margin: 2em 70%;
 }
+
 /* /////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
 /* ---------------------------------------- Zitat Index Meine Touren ENDE ---------------------------------------- */
 /* ############################################################################################################### */
@@ -1165,6 +1170,35 @@ img {
 /* ######################################################################################################## */
 /* ---------------------------------------- Meine Ausrüstung START ---------------------------------------- */
 /* //////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+.ausrustung-slider {
+
+    height: px;
+}
+
+@media only screen and (max-width: 1243px) {
+    .ausrustung-slider {
+        height: 1000px;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .ausrustung-slider {
+        height: 900px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .ausrustung-slider {
+        height: 1050px;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .ausrustung-slider {
+        height: 1300px;
+    }
+}
 
 .ausruestung {
     width: 100%;
@@ -1198,7 +1232,7 @@ img {
 }
 
 @media only screen and (max-width: 768px) {
-    .ausruestung-bild{
+    .ausruestung-bild {
         width: 100%;
         padding: 0;
         height: 334px;
@@ -1601,6 +1635,7 @@ input[type=button]:hover {
     margin-top: 4px;
     margin-bottom: 16px;
 }
+
 /* /////////////////////////////////////////////////////////////////////////////////////////////////////// */
 /* ---------------------------------------- Kontakt formular ENDE ---------------------------------------- */
 /* ####################################################################################################### */
@@ -1971,16 +2006,19 @@ hr {
     row-gap: 1em;
     flex-wrap: wrap;
 }
+
 @media only screen and (max-width: 992px) {
     .gallery {
         display: none;
     }
 }
+
 @media only screen and (max-width: 768px) {
     .gallery {
         display: none;
     }
 }
+
 @media only screen and (max-width: 576px) {
     .gallery {
         display: none;
@@ -2069,6 +2107,7 @@ hr {
     padding-bottom: 3em;
     margin-top: 10em;
 }
+
 @media only screen and (max-width: 992px) {
     .footer {
         margin-top: 7em;
@@ -2076,6 +2115,7 @@ hr {
         padding-bottom: 1em;
     }
 }
+
 @media only screen and (max-width: 768px) {
     .footer {
         margin-top: 2em;
