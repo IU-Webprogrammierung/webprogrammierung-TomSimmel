@@ -928,6 +928,8 @@ img {
     column-gap: 1.5em;
 }
 
+
+
 .touren-boxen {
     display: flex;
     text-align: right;
@@ -942,6 +944,7 @@ img {
     width: 270px;
 
 }
+
 
 @media only screen and (max-width: 992px) {
     .touren-boxen {
@@ -1228,6 +1231,35 @@ img {
 /* ######################################################################################################## */
 /* ---------------------------------------- Meine Ausrüstung START ---------------------------------------- */
 /* //////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+.ausrustung-slider {
+
+    height: px;
+}
+
+@media only screen and (max-width: 1243px) {
+    .ausrustung-slider {
+        height: 1000px;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .ausrustung-slider {
+        height: 900px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .ausrustung-slider {
+        height: 1050px;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .ausrustung-slider {
+        height: 1300px;
+    }
+}
 
 .ausruestung {
     width: 100%;
