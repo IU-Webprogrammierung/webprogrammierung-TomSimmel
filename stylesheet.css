@@ -687,7 +687,7 @@ img {
 }
 
 #Eckdaten-A1 {
-    padding: 3em;
+    padding: 2em;
 }
 
 /* /////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
@@ -754,6 +754,10 @@ img {
 
 .material-symbols-outlined:hover {
     font-size: 600% !important;
+}
+
+#Kontakt-A {
+    padding: 2em;
 }
 
 
