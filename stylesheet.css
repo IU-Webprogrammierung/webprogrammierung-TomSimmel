@@ -202,7 +202,7 @@ img {
 
 /* ////////////////////////////////////////////////////////////////////////////////////////////////////////// */
 /* ----------------------------------------  Globale Einstellungen  ----------------------------------------  */
-/* ########################################################################################################## */
+/* ##############################################spacer############################################################ */
 
 
 
@@ -756,9 +756,6 @@ img {
     font-size: 600% !important;
 }
 
-#Kontakt-A {
-    padding: 3em;
-}
 
 /* ///////////////////////////////////////////////////////////////////////////////////////////////////////// */
 /* ---------------------------------------- Hero-Image Kontakt ENDE ---------------------------------------- */
@@ -842,7 +839,7 @@ img {
     .willkommen-text {
         width: 100%;
         text-align: center;
-        padding: 0;
+        padding: 4em;
     }
 }
 
@@ -1269,7 +1266,7 @@ img {
 
 @media only screen and (max-width: 992px) {
     .ausrustung-slider {
-        height: 900px;
+        height: 960px;
     }
 }
 
@@ -1343,7 +1340,7 @@ img {
 
 @media only screen and (max-width: 992px) {
     .ausruestung-text {
-        padding: 0;
+        padding: 4em;
         width: 100%;
         text-align: center;
     }
@@ -1741,7 +1738,8 @@ details summary {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 16px;
+    padding-top: 16px;
+    padding-bottom: 16px;
     border: none;
     cursor: pointer;
     font-family: 'Inter';
@@ -1808,8 +1806,10 @@ hr {
 }
 
 .Gesamt-werte {
-    width: 100%;
-    margin: 3em 0;
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 3em;
+    padding-bottom: 1em;
     column-gap: 4.5em;
     row-gap: 3em;
     display: flex;
@@ -1818,11 +1818,27 @@ hr {
     flex-wrap: wrap;
     column-gap: 3em;
     text-align: center;
+    
+}
+
+
+
+@media only screen and (max-width: 992px) {
+    .Gesamt-werte {
+        width: 70%;
+        row-gap: 3em;
+        column-gap: 3.5em;
+        margin: 0 auto;
+        padding-top: 3em;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
 }
 
 @media only screen and (max-width: 768px) {
     .Gesamt-werte {
-        width: 100%;
+        width: 90%;
         row-gap: 3em;
         column-gap: 4.5em;
         display: flex;
@@ -1902,19 +1918,26 @@ hr {
 }
 
 .Tour-ablauf {
-    width: 100%;
-    margin-top: 4em;
+    width: 90%;
+    padding-top: 3em;
+    margin: 0 auto;
     display: flex;
     flex-direction: row;
-    justify-content: center;
     flex-wrap: wrap;
     row-gap: 3em;
     text-align: left;
+    justify-content: space-evenly;
 }
 
 .Mobile-gallery {
     display: none;
 }
+
+@media only screen and (max-width: 992px) {
+    .Gallery-desktop{
+    display: none;
+    }
+    }
 
 @media only screen and (max-width: 992px) {
     .Mobile-gallery {
